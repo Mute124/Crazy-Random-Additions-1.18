@@ -934,6 +934,30 @@
           }
         ]
       }
+    },
+    {
+      "name": "Well",
+      "type": "structure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "well"
+    },
+    {
+      "name": "Statue",
+      "type": "structure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue"
+    },
+    {
+      "name": "Warehouse",
+      "type": "structure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warehouse"
     }
   ],
   "variable_elements": [
@@ -956,19 +980,19 @@
       "item.minecraft.potion.effect.poweroftheborgor": "Poweroftheborgor",
       "item.random_additions.grenade": "Grenade",
       "itemGroup.tabrandomadditionsarmor": "Randomadditionsarmor",
-      "advancements.superhotstuff.descr": "Obtain a magma ingot",
       "item.minecraft.splash_potion.effect.poweroftheborgor": "Splash Poweroftheborgor",
+      "advancements.superhotstuff.descr": "Obtain a magma ingot",
       "item.random_additions.saw": "Saw",
       "advancements.suspiciouslookingborgor.title": "Suspicious looking borgor",
-      "block.random_additions.cork": "Cork",
       "item.random_additions.borgium_armor_chestplate": "Borgium Chestplate",
+      "block.random_additions.cork": "Cork",
       "item.random_additions.bismuth_tools_pickaxe": "Bismuth Pickaxe",
       "advancements.superhotstuff.title": "Super hot stuff",
-      "item.random_additions.bismuth": "Bismuth",
       "item.minecraft.tipped_arrow.effect.confusion": "Arrow of Confusion",
+      "item.random_additions.bismuth": "Bismuth",
       "itemGroup.tabrandomadditions_items": "Random additions Items",
-      "item.random_additions.borgium_hoe": "Borgium Hoe",
       "item.minecraft.tipped_arrow.effect.poweroftheborgor": "Arrow of Poweroftheborgor",
+      "item.random_additions.borgium_hoe": "Borgium Hoe",
       "block.random_additions.bismuth_ore": "Bismuth Ore",
       "advancements.economycrasher.title": "Economy crasher",
       "item.minecraft.lingering_potion.effect.confusion": "Lingering Confusion",
