@@ -21,7 +21,6 @@ import net.minecraft.world.level.dimension.LevelStem;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.chunk.ChunkGenerator;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.biome.MultiNoiseBiomeSource;
 import net.minecraft.world.level.biome.Climate;
 import net.minecraft.world.level.biome.Biome;
@@ -82,8 +81,9 @@ public class RandomAdditionsModBiomes {
 							List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
 							surfaceRules.add(1,
 									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, THEINFECTION.getId()),
-											Blocks.WARPED_NYLIUM.defaultBlockState(), Blocks.SOUL_SOIL.defaultBlockState(),
-											Blocks.SOUL_SOIL.defaultBlockState()));
+											RandomAdditionsModItems.DELETED_MOD_ELEMENT.get().defaultBlockState(),
+											RandomAdditionsModItems.DELETED_MOD_ELEMENT.get().defaultBlockState(),
+											RandomAdditionsModItems.DELETED_MOD_ELEMENT.get().defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),
