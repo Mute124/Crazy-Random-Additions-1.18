@@ -26,7 +26,7 @@ public class RandomAdditionsModBlocks {
 	public static final RegistryObject<Block> BISMUTH_ORE = REGISTRY.register("bismuth_ore", () -> new BismuthOreBlock());
 	public static final RegistryObject<Block> BISMUTH_BLOCK = REGISTRY.register("bismuth_block", () -> new BismuthBlockBlock());
 	public static final RegistryObject<Block> CORK = REGISTRY.register("cork", () -> new CorkBlock());
-	public static final RegistryObject<Block> MAGMA_ORE = REGISTRY.register("magma_ore", () -> new MagmaOreBlock());
+	public static final RegistryObject<Block> MAGMANIUM_ORE = REGISTRY.register("magmanium_ore", () -> new MagmaOreBlock());
 	public static final RegistryObject<Block> MAGMA_BLOCK = REGISTRY.register("magma_block", () -> new MagmaBlockBlock());
 	public static final RegistryObject<Block> BORGIUM_ORE = REGISTRY.register("borgium_ore", () -> new BorgiumOreBlock());
 	public static final RegistryObject<Block> BORGIUM_BLOCK = REGISTRY.register("borgium_block", () -> new BorgiumBlockBlock());

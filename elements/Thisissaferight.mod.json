@@ -2,8 +2,8 @@
   "_fv": 28,
   "_type": "achievement",
   "definition": {
-    "achievementName": "This is safe right???",
-    "achievementDescription": "Step foot in the \"very safe\" infection biome ",
+    "achievementName": "This is safe right?",
+    "achievementDescription": "Step foot in the Blue wasteland called the infection biome ",
     "achievementIcon": {
       "value": "CUSTOM:InfectedGrass"
     },

@@ -1,5 +1,5 @@
 {
-  "parent": "random_additions:block/magma_ore",
+  "parent": "random_additions:block/magmanium_ore",
   "display": {
     "thirdperson": {
       "rotation": [
