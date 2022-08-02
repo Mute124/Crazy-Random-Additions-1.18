@@ -6,9 +6,9 @@
     "texture": "bullet",
     "customModelName": "Normal",
     "name": "Bullets",
-    "rarity": "COMMON",
+    "rarity": "RARE",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:RandomadditionsItems"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -33,6 +33,9 @@
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
     "isMeat": false,
     "isAlwaysEdible": false,
     "animation": "eat"

@@ -48,8 +48,10 @@ public class RandomAdditionsModItems {
 	public static final RegistryObject<Item> BISMUTH = REGISTRY.register("bismuth", () -> new BismuthItem());
 	public static final RegistryObject<Item> BORGIUM_DUST = REGISTRY.register("borgium_dust", () -> new BorgiumDustItem());
 	public static final RegistryObject<Item> MAGMA_INGOT = REGISTRY.register("magma_ingot", () -> new MagmaIngotItem());
-	public static final RegistryObject<Item> BISMUTH_ORE = block(RandomAdditionsModBlocks.BISMUTH_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> BISMUTH_BLOCK = block(RandomAdditionsModBlocks.BISMUTH_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BISMUTH_ORE = block(RandomAdditionsModBlocks.BISMUTH_ORE,
+			RandomAdditionsModTabs.TAB_RANDOMADDITIONS_ITEMS);
+	public static final RegistryObject<Item> BISMUTH_BLOCK = block(RandomAdditionsModBlocks.BISMUTH_BLOCK,
+			RandomAdditionsModTabs.TAB_RANDOMADDITIONS_ITEMS);
 	public static final RegistryObject<Item> BISMUTH_TOOLS_PICKAXE = REGISTRY.register("bismuth_tools_pickaxe", () -> new Bismuth_toolsPickaxeItem());
 	public static final RegistryObject<Item> BISMUTH_TOOLS_AXE = REGISTRY.register("bismuth_tools_axe", () -> new Bismuth_toolsAxeItem());
 	public static final RegistryObject<Item> BISMUTH_TOOLS_SHOVEL = REGISTRY.register("bismuth_tools_shovel", () -> new Bismuth_toolsShovelItem());
@@ -60,15 +62,15 @@ public class RandomAdditionsModItems {
 	public static final RegistryObject<Item> BORGIUM_HOE = REGISTRY.register("borgium_hoe", () -> new BorgiumHoeItem());
 	public static final RegistryObject<Item> SAW = REGISTRY.register("saw", () -> new SawItem());
 	public static final RegistryObject<Item> CHAINSAW = REGISTRY.register("chainsaw", () -> new ChainsawItem());
-	public static final RegistryObject<Item> CORK = block(RandomAdditionsModBlocks.CORK, RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS);
+	public static final RegistryObject<Item> CORK = block(RandomAdditionsModBlocks.CORK, RandomAdditionsModTabs.TAB_RANDOMADDITIONS_ITEMS);
 	public static final RegistryObject<Item> MAGMANIUM_ORE = block(RandomAdditionsModBlocks.MAGMANIUM_ORE,
-			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS);
+			RandomAdditionsModTabs.TAB_RANDOMADDITIONS_ITEMS);
 	public static final RegistryObject<Item> MAGMA_BLOCK = block(RandomAdditionsModBlocks.MAGMA_BLOCK,
-			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS);
+			RandomAdditionsModTabs.TAB_RANDOMADDITIONS_ITEMS);
 	public static final RegistryObject<Item> BORGIUM_ORE = block(RandomAdditionsModBlocks.BORGIUM_ORE,
-			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS);
+			RandomAdditionsModTabs.TAB_RANDOMADDITIONS_ITEMS);
 	public static final RegistryObject<Item> BORGIUM_BLOCK = block(RandomAdditionsModBlocks.BORGIUM_BLOCK,
-			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS);
+			RandomAdditionsModTabs.TAB_RANDOMADDITIONS_ITEMS);
 	public static final RegistryObject<Item> BISMUTH_TOOLS_SWORD = REGISTRY.register("bismuth_tools_sword", () -> new Bismuth_toolsSwordItem());
 	public static final RegistryObject<Item> BORGIUM_SWORD = REGISTRY.register("borgium_sword", () -> new BorgiumSwordItem());
 	public static final RegistryObject<Item> GUN = REGISTRY.register("gun", () -> new GunItem());

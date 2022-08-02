@@ -14,7 +14,7 @@ import net.mcreator.randomadditions.init.RandomAdditionsModItems;
 
 public class BorgiumDustItem extends Item {
 	public BorgiumDustItem() {
-		super(new Item.Properties().tab(RandomAdditionsModTabs.TAB_RANDOMADDITIONS_ITEMS).stacksTo(64).rarity(Rarity.UNCOMMON)
+		super(new Item.Properties().tab(RandomAdditionsModTabs.TAB_RANDOM_ADDITIONS_FOOD).stacksTo(64).rarity(Rarity.UNCOMMON)
 				.food((new FoodProperties.Builder()).nutrition(-100).saturationMod(-100f).alwaysEat()
 
 						.build()));

@@ -8,7 +8,7 @@
     "name": "Borgium",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "CUSTOM:RandomadditionsItems"
+      "value": "CUSTOM:RandomAdditionsFood"
     },
     "stackSize": 64,
     "enchantability": 0,
