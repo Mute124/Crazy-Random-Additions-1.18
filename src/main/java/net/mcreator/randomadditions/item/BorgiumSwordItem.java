@@ -22,7 +22,7 @@ public class BorgiumSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 8f;
 			}
 
 			public int getLevel() {

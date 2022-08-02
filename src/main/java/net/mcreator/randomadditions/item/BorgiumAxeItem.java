@@ -22,7 +22,7 @@ public class BorgiumAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 12f;
 			}
 
 			public int getLevel() {
