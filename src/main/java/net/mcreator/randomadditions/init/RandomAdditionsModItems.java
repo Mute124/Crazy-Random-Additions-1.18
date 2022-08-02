@@ -7,7 +7,6 @@ package net.mcreator.randomadditions.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -98,9 +97,6 @@ public class RandomAdditionsModItems {
 			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS);
 	public static final RegistryObject<Item> INFECTED_SOIL = block(RandomAdditionsModBlocks.INFECTED_SOIL,
 			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS);
-	public static final RegistryObject<Item> THE_SQUELCHER = REGISTRY.register("the_squelcher_spawn_egg",
-			() -> new ForgeSpawnEggItem(RandomAdditionsModEntities.THE_SQUELCHER, -16751002, -13408768,
-					new Item.Properties().tab(RandomAdditionsModTabs.TAB_RANDOMADDITIONS_ITEMS)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
