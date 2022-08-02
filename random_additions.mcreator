@@ -939,7 +939,7 @@
       "name": "Warehouse",
       "type": "structure",
       "sortid": 102,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "warehouse"
     },
@@ -947,7 +947,7 @@
       "name": "Statue",
       "type": "structure",
       "sortid": 101,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "statue"
     },
@@ -955,7 +955,7 @@
       "name": "Well",
       "type": "structure",
       "sortid": 100,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "well"
     },
@@ -963,7 +963,7 @@
       "name": "HaloWorn",
       "type": "procedure",
       "sortid": 104,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "halo_worn",
       "metadata": {
@@ -979,7 +979,7 @@
       "name": "InfectedGrass",
       "type": "block",
       "sortid": 101,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "infected_grass"
     },
@@ -987,7 +987,7 @@
       "name": "Shotgun",
       "type": "rangeditem",
       "sortid": 103,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "shotgun",
       "path": "~/Guns"
@@ -996,7 +996,7 @@
       "name": "InfectedSoil",
       "type": "block",
       "sortid": 102,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "infected_soil"
     },
@@ -1004,7 +1004,7 @@
       "name": "TechnosCrown",
       "type": "item",
       "sortid": 100,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "technos_crown"
     }
@@ -1040,6 +1040,7 @@
       "item.random_additions.bismuth": "Bismuth",
       "item.minecraft.tipped_arrow.effect.confusion": "Arrow of Confusion",
       "itemGroup.tabrandomadditions_items": "Random additions Items",
+      "item.random_additions.shotgun": "Shotgun",
       "item.random_additions.borgium_hoe": "Borgium Hoe",
       "item.minecraft.tipped_arrow.effect.poweroftheborgor": "Arrow of Poweroftheborgor",
       "block.random_additions.bismuth_ore": "Bismuth Ore",
