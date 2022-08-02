@@ -936,12 +936,12 @@
       }
     },
     {
-      "name": "Well",
+      "name": "Warehouse",
       "type": "structure",
-      "sortid": 100,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "well"
+      "registry_name": "warehouse"
     },
     {
       "name": "Statue",
@@ -952,12 +952,61 @@
       "registry_name": "statue"
     },
     {
-      "name": "Warehouse",
+      "name": "Well",
       "type": "structure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "well"
+    },
+    {
+      "name": "HaloWorn",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_worn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfectedGrass",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_grass"
+    },
+    {
+      "name": "Shotgun",
+      "type": "rangeditem",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun",
+      "path": "~/Guns"
+    },
+    {
+      "name": "InfectedSoil",
+      "type": "block",
       "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "warehouse"
+      "registry_name": "infected_soil"
+    },
+    {
+      "name": "TechnosCrown",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "technos_crown"
     }
   ],
   "variable_elements": [
@@ -1055,7 +1104,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Guns",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "random_additions",
