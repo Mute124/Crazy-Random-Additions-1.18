@@ -31,8 +31,8 @@
     "inventoryStackSize": 64,
     "hasDispenseBehavior": false,
     "isFood": true,
-    "nutritionalValue": -10,
-    "saturation": -10.0,
+    "nutritionalValue": -100,
+    "saturation": -100.0,
     "eatResultItem": {
       "value": "CUSTOM:BorgiumDust"
     },
