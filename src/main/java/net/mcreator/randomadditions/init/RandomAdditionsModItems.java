@@ -96,9 +96,9 @@ public class RandomAdditionsModItems {
 	public static final RegistryObject<Item> BUG_DRINK = REGISTRY.register("bug_drink", () -> new BugDrinkItem());
 	public static final RegistryObject<Item> TECHNOS_CROWN = REGISTRY.register("technos_crown", () -> new TechnosCrownItem());
 	public static final RegistryObject<Item> INFECTED_GRASS = block(RandomAdditionsModBlocks.INFECTED_GRASS,
-			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS);
+			RandomAdditionsModTabs.TAB_ADDITIONALINFECTION);
 	public static final RegistryObject<Item> INFECTED_SOIL = block(RandomAdditionsModBlocks.INFECTED_SOIL,
-			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS);
+			RandomAdditionsModTabs.TAB_ADDITIONALINFECTION);
 	public static final RegistryObject<Item> SHOTGUN = REGISTRY.register("shotgun", () -> new ShotgunItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

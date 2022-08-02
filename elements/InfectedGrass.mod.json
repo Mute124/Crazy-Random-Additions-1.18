@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:RandomAdditionstools"
+      "value": "CUSTOM:Additionalinfection"
     },
     "destroyTool": "Not specified",
     "customDrop": {

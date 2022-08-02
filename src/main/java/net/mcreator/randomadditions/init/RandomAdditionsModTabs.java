@@ -17,6 +17,7 @@ public class RandomAdditionsModTabs {
 	public static CreativeModeTab TAB_RANDOM_ADDITIONS_WEAPONS;
 	public static CreativeModeTab TAB_RANDOMADDITIONSARMOR;
 	public static CreativeModeTab TAB_RANDOMADDITIONS_ITEMS;
+	public static CreativeModeTab TAB_ADDITIONALINFECTION;
 
 	public static void load() {
 		TAB_RANDOM_ADDITIONSTOOLS = new CreativeModeTab("tabrandom_additionstools") {
@@ -74,5 +75,16 @@ public class RandomAdditionsModTabs {
 				return true;
 			}
 		}.setBackgroundSuffix("item_search.png");
+		TAB_ADDITIONALINFECTION = new CreativeModeTab("tabadditionalinfection") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(RandomAdditionsModBlocks.INFECTED_GRASS.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
 	}
 }

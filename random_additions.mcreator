@@ -1047,6 +1047,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmablockuse"
+    },
+    {
+      "name": "Test03",
+      "type": "enchantment",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_03"
+    },
+    {
+      "name": "Additionalinfection",
+      "type": "tab",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "additionalinfection"
     }
   ],
   "variable_elements": [
@@ -1068,14 +1084,15 @@
     "en_us": {
       "item.minecraft.potion.effect.poweroftheborgor": "Poweroftheborgor",
       "item.random_additions.grenade": "Grenade",
+      "itemGroup.tabadditionalinfection": "Additionalinfection",
       "itemGroup.tabrandomadditionsarmor": "Randomadditionsarmor",
-      "item.minecraft.splash_potion.effect.poweroftheborgor": "Splash Poweroftheborgor",
       "advancements.superhotstuff.descr": "Obtain a magma ingot",
+      "item.minecraft.splash_potion.effect.poweroftheborgor": "Splash Poweroftheborgor",
       "item.random_additions.saw": "Saw",
       "advancements.suspiciouslookingborgor.title": "Suspicious looking borgor",
       "block.random_additions.magmanium_ore": "Magma Ore",
-      "item.random_additions.borgium_armor_chestplate": "Borgium Chestplate",
       "block.random_additions.cork": "Cork",
+      "item.random_additions.borgium_armor_chestplate": "Borgium Chestplate",
       "item.random_additions.technos_crown": "Technos Crown",
       "item.random_additions.bismuth_tools_pickaxe": "Bismuth Pickaxe",
       "advancements.superhotstuff.title": "Super hot stuff",
@@ -1108,6 +1125,7 @@
       "item.random_additions.gun": "gun",
       "advancements.blockafire.title": "Set my block a fire",
       "item.random_additions.borgium_armor_boots": "Borgium Boots",
+      "enchantment.random_additions.test_03": "quickening",
       "block.random_additions.borgium_block": "Block of Borgium",
       "item.random_additions.borgium_axe": "Borgium Axe",
       "item.random_additions.borgium_dust": "Borgium",
