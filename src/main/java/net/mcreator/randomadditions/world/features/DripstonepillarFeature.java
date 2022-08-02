@@ -14,6 +14,7 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.Level;
+import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
@@ -24,15 +25,15 @@ import net.minecraft.core.BlockPos;
 import java.util.Set;
 import java.util.List;
 
-public class SprucecabinFeature extends Feature<NoneFeatureConfiguration> {
-	public static SprucecabinFeature FEATURE = null;
+public class DripstonepillarFeature extends Feature<NoneFeatureConfiguration> {
+	public static DripstonepillarFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<NoneFeatureConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
 
 	public static Feature<?> feature() {
-		FEATURE = new SprucecabinFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("random_additions:sprucecabin", FEATURE, FeatureConfiguration.NONE);
-		PLACED_FEATURE = PlacementUtils.register("random_additions:sprucecabin", CONFIGURED_FEATURE, List.of());
+		FEATURE = new DripstonepillarFeature();
+		CONFIGURED_FEATURE = FeatureUtils.register("random_additions:dripstonepillar", FEATURE, FeatureConfiguration.NONE);
+		PLACED_FEATURE = PlacementUtils.register("random_additions:dripstonepillar", CONFIGURED_FEATURE, List.of());
 		return FEATURE;
 	}
 
@@ -40,12 +41,11 @@ public class SprucecabinFeature extends Feature<NoneFeatureConfiguration> {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("snowy_plains"), new ResourceLocation("windswept_hills"),
-			new ResourceLocation("taiga"), new ResourceLocation("windswept_forest"), new ResourceLocation("snowy_taiga"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 	private StructureTemplate template = null;
 
-	public SprucecabinFeature() {
+	public DripstonepillarFeature() {
 		super(NoneFeatureConfiguration.CODEC);
 	}
 
@@ -54,16 +54,17 @@ public class SprucecabinFeature extends Feature<NoneFeatureConfiguration> {
 		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
 			return false;
 		if (template == null)
-			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("random_additions", "spruce_cabin"));
+			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("random_additions", "pillar"));
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
-		if ((context.random().nextInt(1000000) + 1) <= 9000) {
+		if ((context.random().nextInt(1000000) + 1) <= 100) {
 			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);
 				int k = context.origin().getZ() + context.random().nextInt(16);
-				int j = context.level().getHeight(Heightmap.Types.OCEAN_FLOOR_WG, i, k) - 1;
+				int j = context.level().getHeight(Heightmap.Types.OCEAN_FLOOR_WG, i, k);
+				j = Mth.nextInt(context.random(), 8 + context.level().getMinBuildHeight(), Math.max(j, 9 + context.level().getMinBuildHeight()));
 				BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
 				if (template.placeInWorld(context.level(), spawnTo, spawnTo,
 						new StructurePlaceSettings().setMirror(Mirror.values()[context.random().nextInt(2)])
