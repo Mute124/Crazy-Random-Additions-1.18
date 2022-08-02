@@ -1,0 +1,26 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "infected",
+    "icon": "downloaded.png",
+    "color": {
+      "value": -13369447,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "InfectiousEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "InfectiousOnEffectActiveTick"
+    },
+    "onExpired": {
+      "name": "InfectiousEffectExpires"
+    }
+  }
+}

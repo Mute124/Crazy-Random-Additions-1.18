@@ -1071,6 +1071,86 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "random_additionsblocks"
+    },
+    {
+      "name": "InfectiousEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectious_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfectiousActiveTickCondition",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectious_active_tick_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfectiousOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectious_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Feelingbetter",
+      "type": "achievement",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feelingbetter"
+    },
+    {
+      "name": "InfectiousEffectExpires",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectious_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Infectious",
+      "type": "potioneffect",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectious"
     }
   ],
   "variable_elements": [
@@ -1093,13 +1173,13 @@
       "item.minecraft.potion.effect.poweroftheborgor": "Poweroftheborgor",
       "item.random_additions.grenade": "Grenade",
       "itemGroup.tabrandomadditionsarmor": "Random additions armor",
-      "item.minecraft.splash_potion.effect.poweroftheborgor": "Splash Poweroftheborgor",
       "advancements.superhotstuff.descr": "Obtain a magma ingot",
+      "item.minecraft.splash_potion.effect.poweroftheborgor": "Splash Poweroftheborgor",
       "item.random_additions.saw": "Saw",
       "advancements.suspiciouslookingborgor.title": "Suspicious looking borgor",
       "block.random_additions.magmanium_ore": "Magma Ore",
-      "block.random_additions.cork": "Cork",
       "item.random_additions.borgium_armor_chestplate": "Borgium Chestplate",
+      "block.random_additions.cork": "Cork",
       "item.random_additions.technos_crown": "Technos Crown",
       "item.random_additions.bismuth_tools_pickaxe": "Bismuth Pickaxe",
       "advancements.superhotstuff.title": "Super hot stuff",
@@ -1122,6 +1202,7 @@
       "advancements.sawtime.descr": "Make a saw",
       "biome.random_additions.theinfection": "The infection",
       "item.random_additions.drillbit": "Drill bit",
+      "advancements.feelingbetter.title": "Feeling better",
       "advancements.thisissaferight.title": "This is safe right?",
       "item.random_additions.heart": "Heart",
       "advancements.why.descr": "You ate a piece of borgium are you happy?",
@@ -1149,10 +1230,12 @@
       "advancements.joingame.descr": "Thank you so much for downloading my mod!",
       "item.minecraft.potion.effect.confusion": "Confusion",
       "item.random_additions.grenadethrownitem": "Grenadethrownitem",
+      "advancements.feelingbetter.descr": "Survive or die from the infection",
       "block.random_additions.borgium_ore": "Borgium Ore",
       "item.random_additions.borgor": "Suspicious Borgor",
       "block.random_additions.infected_soil": "Infected Soil",
       "advancements.joingame.title": "Thank you so much!",
+      "effect.random_additions.infectious": "infected",
       "item.random_additions.wood_armor_armor_chestplate": "Wood Chestplate",
       "item.minecraft.lingering_potion.effect.poweroftheborgor": "Lingering Poweroftheborgor",
       "block.random_additions.infected_grass": "Infected Grass",
