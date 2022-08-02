@@ -1015,6 +1015,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dripstonepillar"
+    },
+    {
+      "name": "Blockafire",
+      "type": "achievement",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockafire"
     }
   ],
   "variable_elements": [
@@ -1037,19 +1045,19 @@
       "item.minecraft.potion.effect.poweroftheborgor": "Poweroftheborgor",
       "item.random_additions.grenade": "Grenade",
       "itemGroup.tabrandomadditionsarmor": "Randomadditionsarmor",
-      "item.minecraft.splash_potion.effect.poweroftheborgor": "Splash Poweroftheborgor",
       "advancements.superhotstuff.descr": "Obtain a magma ingot",
+      "item.minecraft.splash_potion.effect.poweroftheborgor": "Splash Poweroftheborgor",
       "item.random_additions.saw": "Saw",
       "advancements.suspiciouslookingborgor.title": "Suspicious looking borgor",
-      "item.random_additions.borgium_armor_chestplate": "Borgium Chestplate",
       "block.random_additions.cork": "Cork",
+      "item.random_additions.borgium_armor_chestplate": "Borgium Chestplate",
       "item.random_additions.technos_crown": "Technos Crown",
       "item.random_additions.bismuth_tools_pickaxe": "Bismuth Pickaxe",
       "advancements.superhotstuff.title": "Super hot stuff",
-      "item.minecraft.tipped_arrow.effect.confusion": "Arrow of Confusion",
       "item.random_additions.bismuth": "Bismuth",
-      "item.random_additions.shotgun": "Shotgun",
+      "item.minecraft.tipped_arrow.effect.confusion": "Arrow of Confusion",
       "itemGroup.tabrandomadditions_items": "Random additions Items",
+      "item.random_additions.shotgun": "Shotgun",
       "item.random_additions.borgium_hoe": "Borgium Hoe",
       "item.minecraft.tipped_arrow.effect.poweroftheborgor": "Arrow of Poweroftheborgor",
       "block.random_additions.bismuth_ore": "Bismuth Ore",
@@ -1072,6 +1080,7 @@
       "item.random_additions.magma_ingot": "Magma",
       "item.random_additions.wood_armor_armor_boots": "Wood Boots",
       "item.random_additions.gun": "gun",
+      "advancements.blockafire.title": "Set a block a fire",
       "item.random_additions.borgium_armor_boots": "Borgium Boots",
       "block.random_additions.borgium_block": "Block of Borgium",
       "item.random_additions.borgium_axe": "Borgium Axe",
@@ -1083,6 +1092,7 @@
       "item.random_additions.bark": "Bark",
       "advancements.explosiveordnance.title": "Explosive ordnance",
       "advancements.whatdid_itellyou.title": "What did I tell you",
+      "advancements.blockafire.descr": "craft a Magma block",
       "advancements.joingame.descr": "Thank you so much for downloading my mod!",
       "item.minecraft.potion.effect.confusion": "Confusion",
       "item.random_additions.grenadethrownitem": "Grenadethrownitem",
@@ -1119,6 +1129,10 @@
     "children": [
       {
         "name": "Guns",
+        "children": []
+      },
+      {
+        "name": "WIP stuff wip is work in progress",
         "children": []
       }
     ]
