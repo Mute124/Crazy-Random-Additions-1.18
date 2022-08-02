@@ -44,7 +44,7 @@ public class ShotgunItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				ShotgunEntity entityarrow = ShotgunEntity.shoot(world, entity, world.getRandom(), 1f, 5, 5);
+				ShotgunEntity entityarrow = ShotgunEntity.shoot(world, entity, world.getRandom(), 4f, 6.3, 2);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 			}
