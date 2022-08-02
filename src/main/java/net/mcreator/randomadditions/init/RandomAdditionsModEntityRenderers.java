@@ -17,5 +17,6 @@ public class RandomAdditionsModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(RandomAdditionsModEntities.GUN.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(RandomAdditionsModEntities.GRENADE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(RandomAdditionsModEntities.SHOTGUN.get(), ThrownItemRenderer::new);
 	}
 }

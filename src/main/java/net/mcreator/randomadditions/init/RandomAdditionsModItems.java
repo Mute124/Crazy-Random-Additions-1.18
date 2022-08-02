@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.randomadditions.item.Wood_ArmorArmorItem;
 import net.mcreator.randomadditions.item.TechnosCrownItem;
+import net.mcreator.randomadditions.item.ShotgunItem;
 import net.mcreator.randomadditions.item.SawItem;
 import net.mcreator.randomadditions.item.MagmaIngotItem;
 import net.mcreator.randomadditions.item.HeartItem;
@@ -97,6 +98,7 @@ public class RandomAdditionsModItems {
 			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS);
 	public static final RegistryObject<Item> INFECTED_SOIL = block(RandomAdditionsModBlocks.INFECTED_SOIL,
 			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS);
+	public static final RegistryObject<Item> SHOTGUN = REGISTRY.register("shotgun", () -> new ShotgunItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

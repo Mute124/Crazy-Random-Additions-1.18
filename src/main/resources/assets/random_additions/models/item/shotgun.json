@@ -1,0 +1,14 @@
+{
+  "parent": "random_additions:custom/shotty",
+  "textures": {
+    "1": "random_additions:blocks/texture",
+    "2": "random_additions:blocks/texture2",
+    "3": "random_additions:blocks/texture3",
+    "4": "random_additions:blocks/texture4",
+    "5": "random_additions:blocks/texture5",
+    "6": "random_additions:blocks/texture6",
+    "7": "random_additions:blocks/texture2",
+    "missing": "random_additions:blocks/",
+    "particle": "random_additions:items/broken_excalibur"
+  }
+}

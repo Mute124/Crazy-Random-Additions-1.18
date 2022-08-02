@@ -16,6 +16,7 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.randomadditions.entity.ShotgunEntity;
 import net.mcreator.randomadditions.entity.GunEntity;
 import net.mcreator.randomadditions.entity.GrenadeEntity;
 import net.mcreator.randomadditions.RandomAdditionsMod;
@@ -28,6 +29,9 @@ public class RandomAdditionsModEntities {
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<GrenadeEntity>> GRENADE = register("projectile_grenade",
 			EntityType.Builder.<GrenadeEntity>of(GrenadeEntity::new, MobCategory.MISC).setCustomClientFactory(GrenadeEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ShotgunEntity>> SHOTGUN = register("projectile_shotgun",
+			EntityType.Builder.<ShotgunEntity>of(ShotgunEntity::new, MobCategory.MISC).setCustomClientFactory(ShotgunEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

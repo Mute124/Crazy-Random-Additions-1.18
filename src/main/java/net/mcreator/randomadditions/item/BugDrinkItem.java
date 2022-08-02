@@ -1,8 +1,6 @@
 
 package net.mcreator.randomadditions.item;
 
-import net.minecraft.ChatFormatting;
-import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
@@ -34,12 +32,7 @@ public class BugDrinkItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		if (Screen.hasShiftDown()) {
-			list.add(new TextComponent("The lord has given us bug drink!"));
-		} else {
-			list.add(new TextComponent("Hold SHIFT to see more info"));
-		}
-
+		list.add(new TextComponent("The lord has given us bug drink!"));
 	}
 
 	@Override

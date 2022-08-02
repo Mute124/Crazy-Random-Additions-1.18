@@ -1,0 +1,37 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "broken_excalibur",
+    "customModelName": "shotty:default",
+    "name": "Shotgun",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:RandomAdditionsWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.COBBLESTONE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "zombie.png"
+  }
+}
