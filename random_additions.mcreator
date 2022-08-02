@@ -983,6 +983,30 @@
           }
         ]
       }
+    },
+    {
+      "name": "Warehouse",
+      "type": "structure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warehouse"
+    },
+    {
+      "name": "Statue",
+      "type": "structure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statue"
+    },
+    {
+      "name": "Well",
+      "type": "structure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "well"
     }
   ],
   "variable_elements": [

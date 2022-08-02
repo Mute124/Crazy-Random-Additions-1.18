@@ -20,6 +20,9 @@ import net.minecraft.core.Holder;
 import net.mcreator.randomadditions.world.features.ores.MagmaOreFeature;
 import net.mcreator.randomadditions.world.features.ores.BorgiumOreFeature;
 import net.mcreator.randomadditions.world.features.ores.BismuthOreFeature;
+import net.mcreator.randomadditions.world.features.WellFeature;
+import net.mcreator.randomadditions.world.features.WarehouseFeature;
+import net.mcreator.randomadditions.world.features.StatueFeature;
 import net.mcreator.randomadditions.world.features.SprucecabinFeature;
 import net.mcreator.randomadditions.world.features.OldobliskFeature;
 import net.mcreator.randomadditions.world.features.CampfireFeature;
@@ -46,6 +49,12 @@ public class RandomAdditionsModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, CampfireFeature.GENERATE_BIOMES, CampfireFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> SPRUCECABIN = register("sprucecabin", SprucecabinFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.SURFACE_STRUCTURES, SprucecabinFeature.GENERATE_BIOMES, SprucecabinFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> WELL = register("well", WellFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, WellFeature.GENERATE_BIOMES, WellFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> STATUE = register("statue", StatueFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, StatueFeature.GENERATE_BIOMES, StatueFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> WAREHOUSE = register("warehouse", WarehouseFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, WarehouseFeature.GENERATE_BIOMES, WarehouseFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
