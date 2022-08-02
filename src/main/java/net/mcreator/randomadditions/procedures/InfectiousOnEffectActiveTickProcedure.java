@@ -11,7 +11,7 @@ public class InfectiousOnEffectActiveTickProcedure {
 		if (entity == null)
 			return;
 		for (int index0 = 0; index0 < (int) (Mth.nextDouble(new Random(), 1, 10)); index0++) {
-			entity.hurt(DamageSource.OUT_OF_WORLD, (float) Mth.nextDouble(new Random(), 2, 12));
+			entity.hurt(DamageSource.DRAGON_BREATH, (float) Mth.nextDouble(new Random(), 2, 12));
 		}
 	}
 }
