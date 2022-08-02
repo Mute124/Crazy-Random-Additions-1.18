@@ -1,14 +1,17 @@
 
 package net.mcreator.randomadditions.item;
 
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.AxeItem;
 
 import net.mcreator.randomadditions.init.RandomAdditionsModTabs;
 import net.mcreator.randomadditions.init.RandomAdditionsModItems;
+import net.minecraft.world.level.Level;
+
+import java.util.List;
 
 public class BorgiumAxeItem extends AxeItem {
 	public BorgiumAxeItem() {
@@ -37,5 +40,15 @@ public class BorgiumAxeItem extends AxeItem {
 				return Ingredient.of(new ItemStack(RandomAdditionsModItems.BORGIUM_DUST.get()));
 			}
 		}, 1, -3f, new Item.Properties().tab(RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS));
+	}
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		if (Screen.hasShiftDown()) {
+			list.add(new TextComponent("tasty"));
+		} else {
+			list.add(new TextComponent("Hold SHIFT to see more info"));
+		}
+
 	}
 }

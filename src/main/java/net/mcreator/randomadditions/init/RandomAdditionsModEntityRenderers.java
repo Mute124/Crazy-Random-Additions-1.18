@@ -11,11 +11,15 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.randomadditions.client.renderer.TheSquelcherRenderer;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class RandomAdditionsModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(RandomAdditionsModEntities.GUN.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(RandomAdditionsModEntities.GRENADE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(RandomAdditionsModEntities.THE_SQUELCHER.get(), TheSquelcherRenderer::new);
+		event.registerEntityRenderer(RandomAdditionsModEntities.THE_SQUELCHER_PROJECTILE.get(), ThrownItemRenderer::new);
 	}
 }

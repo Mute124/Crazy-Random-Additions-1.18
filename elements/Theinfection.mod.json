@@ -4,10 +4,13 @@
   "definition": {
     "name": "The infection",
     "groundBlock": {
-      "value": "Blocks.WARPED_NYLIUM"
+      "value": "CUSTOM:InfectedGrass"
     },
     "undergroundBlock": {
-      "value": "Blocks.SOUL_SOIL"
+      "value": "CUSTOM:InfectedSoil"
+    },
+    "underwaterBlock": {
+      "value": ""
     },
     "airColor": {
       "value": -970763777,
