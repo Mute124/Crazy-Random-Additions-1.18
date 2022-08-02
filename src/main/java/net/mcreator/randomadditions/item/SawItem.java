@@ -1,6 +1,10 @@
 
 package net.mcreator.randomadditions.item;
 
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
@@ -18,17 +22,29 @@ import java.util.List;
 
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
+import org.jetbrains.annotations.Nullable;
 
 public class SawItem extends Item {
 	public SawItem() {
 		super(new Item.Properties().tab(RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS).durability(100));
 	}
 
+
+
 	@Override
 	public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
 		return List.of().contains(blockstate.getBlock()) ? 4f : 1;
 	}
 
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		if (Screen.hasShiftDown()) {
+			list.add(new TextComponent("Used to cut wood"));
+		} else {
+			list.add(new TextComponent("Hold SHIFT to see more info"));
+		}
+	}
 	@Override
 	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 		itemstack.hurtAndBreak(1, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
@@ -45,7 +61,8 @@ public class SawItem extends Item {
 	public int getEnchantmentValue() {
 		return 2;
 	}
-
+	
+	
 	@Override
 	public Multimap<Attribute, AttributeModifier> getDefaultAttributeModifiers(EquipmentSlot equipmentSlot) {
 		if (equipmentSlot == EquipmentSlot.MAINHAND) {

@@ -14,6 +14,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.randomadditions.item.Wood_ArmorArmorItem;
+import net.mcreator.randomadditions.item.TechnosCrownItem;
 import net.mcreator.randomadditions.item.SawItem;
 import net.mcreator.randomadditions.item.MagmaIngotItem;
 import net.mcreator.randomadditions.item.HeartItem;
@@ -91,6 +92,11 @@ public class RandomAdditionsModItems {
 	public static final RegistryObject<Item> HEART = REGISTRY.register("heart", () -> new HeartItem());
 	public static final RegistryObject<Item> ENCHANTEDBORGOR = REGISTRY.register("enchantedborgor", () -> new EnchantedborgorItem());
 	public static final RegistryObject<Item> BUG_DRINK = REGISTRY.register("bug_drink", () -> new BugDrinkItem());
+	public static final RegistryObject<Item> TECHNOS_CROWN = REGISTRY.register("technos_crown", () -> new TechnosCrownItem());
+	public static final RegistryObject<Item> INFECTED_GRASS = block(RandomAdditionsModBlocks.INFECTED_GRASS,
+			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS);
+	public static final RegistryObject<Item> INFECTED_SOIL = block(RandomAdditionsModBlocks.INFECTED_SOIL,
+			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

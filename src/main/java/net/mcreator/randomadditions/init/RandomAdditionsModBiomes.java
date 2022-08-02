@@ -81,9 +81,9 @@ public class RandomAdditionsModBiomes {
 							List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
 							surfaceRules.add(1,
 									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, THEINFECTION.getId()),
-											RandomAdditionsModItems.DELETED_MOD_ELEMENT.get().defaultBlockState(),
-											RandomAdditionsModItems.DELETED_MOD_ELEMENT.get().defaultBlockState(),
-											RandomAdditionsModItems.DELETED_MOD_ELEMENT.get().defaultBlockState()));
+											RandomAdditionsModBlocks.INFECTED_GRASS.get().defaultBlockState(),
+											RandomAdditionsModBlocks.INFECTED_SOIL.get().defaultBlockState(),
+											RandomAdditionsModBlocks.INFECTED_SOIL.get().defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),

@@ -1,11 +1,13 @@
 
 package net.mcreator.randomadditions.item;
 
-import net.minecraft.world.item.UseAnim;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.world.item.*;
+import net.minecraft.world.level.Level;
+
+import java.util.List;
 
 public class BismuthItem extends Item {
 	public BismuthItem() {
@@ -20,5 +22,15 @@ public class BismuthItem extends Item {
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
 		return 0;
+	}
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		if (Screen.hasShiftDown()) {
+			list.add(new TextComponent("Shiny!"));
+		} else {
+			list.add(new TextComponent("Hold SHIFT to see more info"));
+		}
+
 	}
 }

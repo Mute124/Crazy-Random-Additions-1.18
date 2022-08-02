@@ -934,6 +934,30 @@
           }
         ]
       }
+    },
+    {
+      "name": "InfectedGrass",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_grass"
+    },
+    {
+      "name": "InfectedSoil",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_soil"
+    },
+    {
+      "name": "TechnosCrown",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "technos_crown"
     }
   ],
   "variable_elements": [
