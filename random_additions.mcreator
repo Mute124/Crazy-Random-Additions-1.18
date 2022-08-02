@@ -963,7 +963,7 @@
       "name": "Shotgun",
       "type": "rangeditem",
       "sortid": 103,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "shotgun",
       "path": "~/Guns"
