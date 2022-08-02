@@ -12,6 +12,8 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.randomadditions.block.MagmaOreBlock;
 import net.mcreator.randomadditions.block.MagmaBlockBlock;
+import net.mcreator.randomadditions.block.InfectedSoilBlock;
+import net.mcreator.randomadditions.block.InfectedGrassBlock;
 import net.mcreator.randomadditions.block.CorkBlock;
 import net.mcreator.randomadditions.block.BorgiumOreBlock;
 import net.mcreator.randomadditions.block.BorgiumBlockBlock;
@@ -28,4 +30,6 @@ public class RandomAdditionsModBlocks {
 	public static final RegistryObject<Block> MAGMA_BLOCK = REGISTRY.register("magma_block", () -> new MagmaBlockBlock());
 	public static final RegistryObject<Block> BORGIUM_ORE = REGISTRY.register("borgium_ore", () -> new BorgiumOreBlock());
 	public static final RegistryObject<Block> BORGIUM_BLOCK = REGISTRY.register("borgium_block", () -> new BorgiumBlockBlock());
+	public static final RegistryObject<Block> INFECTED_GRASS = REGISTRY.register("infected_grass", () -> new InfectedGrassBlock());
+	public static final RegistryObject<Block> INFECTED_SOIL = REGISTRY.register("infected_soil", () -> new InfectedSoilBlock());
 }

@@ -1,13 +1,14 @@
 
 package net.mcreator.randomadditions.item;
 
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.world.item.*;
+import net.minecraft.world.level.Level;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
@@ -15,6 +16,8 @@ import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.randomadditions.init.RandomAdditionsModTabs;
 import net.mcreator.randomadditions.init.RandomAdditionsModItems;
+
+import java.util.List;
 
 public abstract class BorgiumArmorItem extends ArmorItem {
 	public BorgiumArmorItem(EquipmentSlot slot, Item.Properties properties) {
@@ -103,5 +106,15 @@ public abstract class BorgiumArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "random_additions:textures/models/armor/borgium_layer_1.png";
 		}
+	}
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		if (Screen.hasShiftDown()) {
+			list.add(new TextComponent("Tasty!"));
+		} else {
+			list.add(new TextComponent("Hold SHIFT to see more info"));
+		}
+
 	}
 }

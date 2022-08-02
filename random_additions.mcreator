@@ -605,7 +605,7 @@
       "type": "tool",
       "sortid": 14,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "saw"
     },
     {
@@ -934,6 +934,30 @@
           }
         ]
       }
+    },
+    {
+      "name": "TechnosCrown",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "technos_crown"
+    },
+    {
+      "name": "InfectedGrass",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_grass"
+    },
+    {
+      "name": "InfectedSoil",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_soil"
     }
   ],
   "variable_elements": [
@@ -962,6 +986,7 @@
       "advancements.suspiciouslookingborgor.title": "Suspicious looking borgor",
       "block.random_additions.cork": "Cork",
       "item.random_additions.borgium_armor_chestplate": "Borgium Chestplate",
+      "item.random_additions.technos_crown": "Technos Crown",
       "item.random_additions.bismuth_tools_pickaxe": "Bismuth Pickaxe",
       "advancements.superhotstuff.title": "Super hot stuff",
       "item.random_additions.bismuth": "Bismuth",
@@ -1005,9 +1030,11 @@
       "item.random_additions.grenadethrownitem": "Grenadethrownitem",
       "block.random_additions.borgium_ore": "Borgium Ore",
       "item.random_additions.borgor": "Suspicious Borgor",
+      "block.random_additions.infected_soil": "Infected Soil",
       "advancements.joingame.title": "Loaded in",
       "item.random_additions.wood_armor_armor_chestplate": "Wood Chestplate",
       "item.minecraft.lingering_potion.effect.poweroftheborgor": "Lingering Poweroftheborgor",
+      "block.random_additions.infected_grass": "Infected Grass",
       "advancements.sawtime.title": "Saw time",
       "effect.random_additions.poweroftheborgor": "Power of the borgor",
       "block.random_additions.bismuth_block": "Block of Bismuth",
@@ -1037,7 +1064,7 @@
     "modid": "random_additions",
     "modName": "Random Additions",
     "version": "1.2.1-1.18.2",
-    "author": "Mute",
+    "author": "Mute124, Hyperexecube, Yharom",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,

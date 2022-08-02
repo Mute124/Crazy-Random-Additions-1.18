@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "borgium_dust",
+    "texture": "techno_crown",
     "customModelName": "Normal",
-    "name": "Borgium",
+    "name": "Technos Crown",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:RandomadditionsItems"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -25,14 +25,14 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "hasDispenseBehavior": false,
     "isFood": false,
-    "nutritionalValue": 0,
-    "saturation": 0.30000001192092896,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
     "eatResultItem": {
       "value": ""
     },
