@@ -1057,20 +1057,20 @@
       "registry_name": "test_03"
     },
     {
-      "name": "Additionalinfection",
-      "type": "tab",
-      "sortid": 111,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "additionalinfection"
-    },
-    {
       "name": "Why",
       "type": "achievement",
       "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "why"
+    },
+    {
+      "name": "RandomAdditionsblocks",
+      "type": "tab",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_additionsblocks"
     }
   ],
   "variable_elements": [
@@ -1092,7 +1092,6 @@
     "en_us": {
       "item.minecraft.potion.effect.poweroftheborgor": "Poweroftheborgor",
       "item.random_additions.grenade": "Grenade",
-      "itemGroup.tabadditionalinfection": "Additionalinfection",
       "itemGroup.tabrandomadditionsarmor": "Random additions armor",
       "advancements.superhotstuff.descr": "Obtain a magma ingot",
       "item.minecraft.splash_potion.effect.poweroftheborgor": "Splash Poweroftheborgor",
@@ -1170,6 +1169,7 @@
       "advancements.suspiciouslookingborgor.descr": "I would not eat that if i were you",
       "item.random_additions.bullets": "Bullets",
       "item.random_additions.borgium_armor_leggings": "Borgium Leggings",
+      "itemGroup.tabrandom_additionsblocks": "Random Additionsblocks",
       "item.random_additions.bismuth_tools_axe": "Bismuth Axe",
       "itemGroup.tabrandom_additions_food": "Random Additions Food",
       "item.random_additions.borgium_sword": "Borgium Sword",
