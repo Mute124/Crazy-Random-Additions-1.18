@@ -16,7 +16,11 @@
       "Surface"
     ],
     "restrictionBlocks": [],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "lush_caves"
+      }
+    ],
     "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

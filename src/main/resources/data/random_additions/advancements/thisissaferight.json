@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "random_additions:infected_grass"
+    },
+    "title": {
+      "translate": "advancements.thisissaferight.title"
+    },
+    "description": {
+      "translate": "advancements.thisissaferight.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "thisissaferight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "random_additions:theinfection"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  }
+}

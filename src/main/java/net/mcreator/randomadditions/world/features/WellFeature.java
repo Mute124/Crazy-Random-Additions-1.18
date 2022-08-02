@@ -40,7 +40,10 @@ public class WellFeature extends Feature<NoneFeatureConfiguration> {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("deep_cold_ocean"), new ResourceLocation("frozen_ocean"),
+			new ResourceLocation("warm_ocean"), new ResourceLocation("frozen_river"), new ResourceLocation("lukewarm_ocean"),
+			new ResourceLocation("ocean"), new ResourceLocation("deep_lukewarm_ocean"), new ResourceLocation("deep_ocean"),
+			new ResourceLocation("swamp"), new ResourceLocation("deep_frozen_ocean"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 	private StructureTemplate template = null;
 
