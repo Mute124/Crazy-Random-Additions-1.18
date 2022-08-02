@@ -25,7 +25,6 @@ import net.mcreator.randomadditions.world.features.WarehouseFeature;
 import net.mcreator.randomadditions.world.features.StatueFeature;
 import net.mcreator.randomadditions.world.features.SprucecabinFeature;
 import net.mcreator.randomadditions.world.features.OldobliskFeature;
-import net.mcreator.randomadditions.world.features.InfectedruinsFeature;
 import net.mcreator.randomadditions.world.features.DripstonepillarFeature;
 import net.mcreator.randomadditions.world.features.CampfireFeature;
 import net.mcreator.randomadditions.RandomAdditionsMod;
@@ -60,8 +59,6 @@ public class RandomAdditionsModFeatures {
 	public static final RegistryObject<Feature<?>> DRIPSTONEPILLAR = register("dripstonepillar", DripstonepillarFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, DripstonepillarFeature.GENERATE_BIOMES,
 					DripstonepillarFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> INFECTEDRUINS = register("infectedruins", InfectedruinsFeature::feature, new FeatureRegistration(
-			GenerationStep.Decoration.SURFACE_STRUCTURES, InfectedruinsFeature.GENERATE_BIOMES, InfectedruinsFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
