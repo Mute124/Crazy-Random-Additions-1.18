@@ -19,4 +19,6 @@ public class RandomAdditionsModPotions {
 			() -> new Potion(new MobEffectInstance(RandomAdditionsModMobEffects.CONFUSION.get(), 3600, 0, false, true)));
 	public static final RegistryObject<Potion> POWEROFTHEBORGOR = REGISTRY.register("poweroftheborgor",
 			() -> new Potion(new MobEffectInstance(RandomAdditionsModMobEffects.POWEROFTHEBORGOR.get(), 3600, 0, false, true)));
+	public static final RegistryObject<Potion> INFECTIOUSPOTION = REGISTRY.register("infectiouspotion",
+			() -> new Potion(new MobEffectInstance(RandomAdditionsModMobEffects.INFECTIOUS.get(), 3600, 1, true, true)));
 }

@@ -1159,6 +1159,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "unobtanious"
+    },
+    {
+      "name": "Infectiouspotion",
+      "type": "potion",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectiouspotion"
+    },
+    {
+      "name": "Infectiouspotionrecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectiouspotionrecipe"
     }
   ],
   "variable_elements": [
@@ -1181,15 +1197,18 @@
       "item.minecraft.potion.effect.poweroftheborgor": "Poweroftheborgor",
       "item.random_additions.grenade": "Grenade",
       "itemGroup.tabrandomadditionsarmor": "Random additions armor",
-      "advancements.superhotstuff.descr": "Obtain a magma ingot",
       "item.minecraft.splash_potion.effect.poweroftheborgor": "Splash Poweroftheborgor",
+      "advancements.superhotstuff.descr": "Obtain a magma ingot",
+      "item.minecraft.splash_potion.effect.infectiouspotion": "Splash Potion of Infectiousness",
       "item.random_additions.saw": "Saw",
       "advancements.suspiciouslookingborgor.title": "Suspicious looking borgor",
+      "item.minecraft.tipped_arrow.effect.infectiouspotion": "Arrow of Infectiousness",
       "block.random_additions.magmanium_ore": "Magma Ore",
       "item.random_additions.borgium_armor_chestplate": "Borgium Chestplate",
       "block.random_additions.cork": "Cork",
       "item.random_additions.technos_crown": "Technos Crown",
       "item.random_additions.bismuth_tools_pickaxe": "Bismuth Pickaxe",
+      "item.minecraft.potion.effect.infectiouspotion": "Potion of Infectiousness",
       "advancements.superhotstuff.title": "Super hot stuff",
       "item.random_additions.bismuth": "Bismuth",
       "item.minecraft.tipped_arrow.effect.confusion": "Arrow of Confusion",
@@ -1259,6 +1278,7 @@
       "item.random_additions.bismuth_tools_shovel": "Bismuth Shovel",
       "item.random_additions.wood_armor_armor_helmet": "Wood Helmet",
       "advancements.suspiciouslookingborgor.descr": "I would not eat that if i were you",
+      "item.minecraft.lingering_potion.effect.infectiouspotion": "Lingering Potion of Infectiousness",
       "item.random_additions.bullets": "Bullets",
       "item.random_additions.borgium_armor_leggings": "Borgium Leggings",
       "itemGroup.tabrandom_additionsblocks": "Random Additions blocks",
