@@ -21,7 +21,7 @@
       "conditions": {
         "item": {
           "items": [
-            "minecraft:void_air"
+            "random_additions:unobtanious"
           ]
         }
       }
