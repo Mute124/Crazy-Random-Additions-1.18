@@ -1175,6 +1175,26 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "infectiouspotionrecipe"
+    },
+    {
+      "name": "Infection",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infection",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
