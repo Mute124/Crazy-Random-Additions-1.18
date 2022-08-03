@@ -1151,6 +1151,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "infectious"
+    },
+    {
+      "name": "Unobtanious",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unobtanious"
     }
   ],
   "variable_elements": [
@@ -1173,8 +1181,8 @@
       "item.minecraft.potion.effect.poweroftheborgor": "Poweroftheborgor",
       "item.random_additions.grenade": "Grenade",
       "itemGroup.tabrandomadditionsarmor": "Random additions armor",
-      "item.minecraft.splash_potion.effect.poweroftheborgor": "Splash Poweroftheborgor",
       "advancements.superhotstuff.descr": "Obtain a magma ingot",
+      "item.minecraft.splash_potion.effect.poweroftheborgor": "Splash Poweroftheborgor",
       "item.random_additions.saw": "Saw",
       "advancements.suspiciouslookingborgor.title": "Suspicious looking borgor",
       "block.random_additions.magmanium_ore": "Magma Ore",
@@ -1211,6 +1219,7 @@
       "effect.poweroftheborgor": "Power of the borgor",
       "item.random_additions.magma_ingot": "Magma",
       "item.random_additions.wood_armor_armor_boots": "Wood Boots",
+      "block.random_additions.unobtanious": "Unobtanious",
       "item.random_additions.gun": "gun",
       "advancements.blockafire.title": "Set my block a fire",
       "advancements.why.title": "Why would you do that?",
@@ -1230,7 +1239,7 @@
       "advancements.joingame.descr": "Thank you so much for downloading my mod!",
       "item.minecraft.potion.effect.confusion": "Confusion",
       "item.random_additions.grenadethrownitem": "Grenadethrownitem",
-      "advancements.feelingbetter.descr": "Survive or die from the infection",
+      "advancements.feelingbetter.descr": "Get infected and survive to tell the tale",
       "block.random_additions.borgium_ore": "Borgium Ore",
       "item.random_additions.borgor": "Suspicious Borgor",
       "block.random_additions.infected_soil": "Infected Soil",

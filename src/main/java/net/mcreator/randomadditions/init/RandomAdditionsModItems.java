@@ -102,6 +102,7 @@ public class RandomAdditionsModItems {
 	public static final RegistryObject<Item> INFECTED_SOIL = block(RandomAdditionsModBlocks.INFECTED_SOIL,
 			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSBLOCKS);
 	public static final RegistryObject<Item> SHOTGUN = REGISTRY.register("shotgun", () -> new ShotgunItem());
+	public static final RegistryObject<Item> UNOBTANIOUS = block(RandomAdditionsModBlocks.UNOBTANIOUS, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

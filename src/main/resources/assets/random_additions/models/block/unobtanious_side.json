@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "edge": "random_additions:blocks/notobtain",
+    "pane": "random_additions:blocks/notobtain"
+  }
+}
