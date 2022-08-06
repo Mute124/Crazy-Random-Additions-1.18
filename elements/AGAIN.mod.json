@@ -5,7 +5,7 @@
     "achievementName": "Do you like my sword sword sword my borgium sword!!!",
     "achievementDescription": "Obtain a borgium sword",
     "achievementIcon": {
-      "value": "CUSTOM:BorgiumBlock"
+      "value": "CUSTOM:BorgiumSword"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -16,7 +16,7 @@
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 0,
-    "achievementType": "challenge",
+    "achievementType": "goal",
     "parent": {
       "value": "CUSTOM:FoodbutNot"
     },

@@ -1,27 +1,28 @@
 {
   "display": {
+    "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "random_additions:borgium_sword"
+      "item": "random_additions:unobtanious"
     },
     "title": {
-      "translate": "advancements.again.title"
+      "translate": "advancements.testachievementpleaseignore.title"
     },
     "description": {
-      "translate": "advancements.again.descr"
+      "translate": "advancements.testachievementpleaseignore.descr"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "criteria": {
-    "again": {
+    "testachievementpleaseignore": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "random_additions:borgium_sword"
+              "minecraft:golden_hoe"
             ],
             "count": {
               "min": 1,
@@ -31,6 +32,5 @@
         ]
       }
     }
-  },
-  "parent": "random_additions:foodbut_not"
+  }
 }
