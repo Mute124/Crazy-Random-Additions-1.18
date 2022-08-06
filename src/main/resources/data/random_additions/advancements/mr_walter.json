@@ -1,27 +1,27 @@
 {
   "display": {
     "icon": {
-      "item": "random_additions:saw"
+      "item": "random_additions:walterwhite"
     },
     "title": {
-      "translate": "advancements.sawtime.title"
+      "translate": "advancements.mr_walter.title"
     },
     "description": {
-      "translate": "advancements.sawtime.descr"
+      "translate": "advancements.mr_walter.descr"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
-    "sawtime": {
+    "mr_walter": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "random_additions:saw"
+              "random_additions:walterwhite"
             ],
             "count": {
               "min": 1,
@@ -32,8 +32,5 @@
       }
     }
   },
-  "rewards": {
-    "experience": 5
-  },
-  "parent": "minecraft:story/iron_tools"
+  "parent": "minecraft:story/root"
 }

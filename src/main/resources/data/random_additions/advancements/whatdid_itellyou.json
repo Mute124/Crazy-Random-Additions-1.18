@@ -9,10 +9,10 @@
     "description": {
       "translate": "advancements.whatdid_itellyou.descr"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "whatdid_itellyou": {

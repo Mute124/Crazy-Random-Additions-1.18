@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "random_additions:infected_soil"
+      "item": "random_additions:borgium_block"
     },
     "title": {
-      "translate": "advancements.feelingbetter.title"
+      "translate": "advancements.again.title"
     },
     "description": {
-      "translate": "advancements.feelingbetter.descr"
+      "translate": "advancements.again.descr"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -15,16 +15,16 @@
     "hidden": true
   },
   "criteria": {
-    "feelingbetter": {
-      "trigger": "minecraft:placed_block",
+    "again": {
+      "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
           "items": [
-            "random_additions:unobtanious"
+            "random_additions:borgium_block"
           ]
         }
       }
     }
   },
-  "parent": "random_additions:thisissaferight"
+  "parent": "random_additions:why"
 }

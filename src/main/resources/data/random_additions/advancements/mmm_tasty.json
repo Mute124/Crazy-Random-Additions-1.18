@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "random_additions:infected_soil"
+      "item": "random_additions:enchantedborgor"
     },
     "title": {
-      "translate": "advancements.feelingbetter.title"
+      "translate": "advancements.mmm_tasty.title"
     },
     "description": {
-      "translate": "advancements.feelingbetter.descr"
+      "translate": "advancements.mmm_tasty.descr"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -15,16 +15,16 @@
     "hidden": true
   },
   "criteria": {
-    "feelingbetter": {
-      "trigger": "minecraft:placed_block",
+    "mmm_tasty": {
+      "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
           "items": [
-            "random_additions:unobtanious"
+            "random_additions:enchantedborgor"
           ]
         }
       }
     }
   },
-  "parent": "random_additions:thisissaferight"
+  "parent": "random_additions:why"
 }

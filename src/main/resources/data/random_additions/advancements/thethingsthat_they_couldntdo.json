@@ -1,27 +1,27 @@
 {
   "display": {
     "icon": {
-      "item": "random_additions:saw"
+      "item": "minecraft:nether_star"
     },
     "title": {
-      "translate": "advancements.sawtime.title"
+      "translate": "advancements.thethingsthat_they_couldntdo.title"
     },
     "description": {
-      "translate": "advancements.sawtime.descr"
+      "translate": "advancements.thethingsthat_they_couldntdo.descr"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
-    "sawtime": {
+    "thethingsthat_they_couldntdo": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "random_additions:saw"
+              "minecraft:nether_star"
             ],
             "count": {
               "min": 1,
@@ -33,7 +33,7 @@
     }
   },
   "rewards": {
-    "experience": 5
+    "experience": 200
   },
-  "parent": "minecraft:story/iron_tools"
+  "parent": "random_additions:thisissaferight"
 }

@@ -9,10 +9,10 @@
     "description": {
       "translate": "advancements.suspiciouslookingborgor.descr"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "suspiciouslookingborgor": {
@@ -35,5 +35,5 @@
   "rewards": {
     "experience": 1
   },
-  "parent": "random_additions:oooshiny"
+  "parent": "random_additions:mmm_tasty"
 }
