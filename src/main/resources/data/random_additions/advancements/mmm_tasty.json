@@ -26,5 +26,5 @@
       }
     }
   },
-  "parent": "random_additions:why"
+  "parent": "minecraft:husbandry/root"
 }

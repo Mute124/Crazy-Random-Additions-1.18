@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "item": "random_additions:borgium_block"
+      "item": "random_additions:borgium_dust"
     },
     "title": {
-      "translate": "advancements.again.title"
+      "translate": "advancements.foodbut_not.title"
     },
     "description": {
-      "translate": "advancements.again.descr"
+      "translate": "advancements.foodbut_not.descr"
     },
     "frame": "challenge",
     "show_toast": true,
@@ -15,13 +15,13 @@
     "hidden": true
   },
   "criteria": {
-    "again": {
+    "foodbut_not": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "random_additions:borgium_sword"
+              "random_additions:borgium_dust"
             ],
             "count": {
               "min": 1,
@@ -32,5 +32,5 @@
       }
     }
   },
-  "parent": "random_additions:foodbut_not"
+  "parent": "random_additions:oooshiny"
 }
