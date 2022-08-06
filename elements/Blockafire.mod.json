@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Set my block a fire",
-    "achievementDescription": "Craft a Magma block",
+    "achievementDescription": "Craft a Magmanium block",
     "achievementIcon": {
       "value": "CUSTOM:MagmaBlock"
     },

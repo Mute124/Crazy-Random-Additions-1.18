@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "magmaingot",
     "customModelName": "Normal",
-    "name": "Magma",
+    "name": "Magmanium ingot",
     "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:RandomadditionsItems"
@@ -19,13 +19,15 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
-    "hasGlow": false,
+    "specialInfo": [
+      "Not to be confused with magma"
+    ],
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,

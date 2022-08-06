@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Super hot stuff",
-    "achievementDescription": "Obtain a magma ingot",
+    "achievementDescription": "Obtain a magmanium ingot",
     "achievementIcon": {
       "value": "CUSTOM:MagmaIngot"
     },
@@ -16,7 +16,7 @@
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 1,
-    "achievementType": "challenge",
+    "achievementType": "goal",
     "parent": {
       "value": "story/smelt_iron"
     },

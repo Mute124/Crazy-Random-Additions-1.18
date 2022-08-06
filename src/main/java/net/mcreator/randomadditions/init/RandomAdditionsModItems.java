@@ -42,6 +42,7 @@ import net.mcreator.randomadditions.item.Bismuth_toolsHoeItem;
 import net.mcreator.randomadditions.item.Bismuth_toolsAxeItem;
 import net.mcreator.randomadditions.item.BismuthItem;
 import net.mcreator.randomadditions.item.BarkItem;
+import net.mcreator.randomadditions.item.AGSTUltimatumItem;
 import net.mcreator.randomadditions.RandomAdditionsMod;
 
 public class RandomAdditionsModItems {
@@ -105,6 +106,7 @@ public class RandomAdditionsModItems {
 	public static final RegistryObject<Item> SHOTGUN = REGISTRY.register("shotgun", () -> new ShotgunItem());
 	public static final RegistryObject<Item> UNOBTANIOUS = block(RandomAdditionsModBlocks.UNOBTANIOUS, null);
 	public static final RegistryObject<Item> WALTERWHITE = REGISTRY.register("walterwhite", () -> new WalterwhiteItem());
+	public static final RegistryObject<Item> AGST_ULTIMATUM = REGISTRY.register("agst_ultimatum", () -> new AGSTUltimatumItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

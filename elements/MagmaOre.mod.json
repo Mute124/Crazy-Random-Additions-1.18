@@ -11,7 +11,7 @@
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Magma Ore",
+    "name": "Magmanium Ore",
     "specialInfo": [],
     "hardness": 6.0,
     "resistance": 8.705505632961241,
@@ -67,7 +67,7 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
+    "flammability": 1,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -94,7 +94,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 2,
     "unbreakable": false,
     "breakHarvestLevel": 4,
     "spawnParticles": false,
@@ -128,9 +128,45 @@
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.STONE#3"
+      },
+      {
+        "value": "Blocks.STONE#1"
+      },
+      {
+        "value": "Blocks.STONE#5"
+      },
+      {
+        "value": "Blocks.STONE#0"
+      },
+      {
+        "value": "Blocks.IRON_ORE"
+      },
+      {
+        "value": "Blocks.COAL_ORE"
+      },
+      {
+        "value": "Blocks.REDSTONE_ORE"
+      },
+      {
+        "value": "Blocks.LIT_REDSTONE_ORE"
+      },
+      {
+        "value": "Blocks.GOLD_ORE"
+      },
+      {
+        "value": "Blocks.LAPIS_ORE"
+      },
+      {
+        "value": "Blocks.DIAMOND_ORE"
+      },
+      {
+        "value": "Blocks.EMERALD_ORE"
       }
     ],
-    "generationShape": "UNIFORM",
+    "generationShape": "TRIANGLE",
     "frequencyPerChunks": 5,
     "frequencyOnChunk": 3,
     "minGenerateHeight": 1,

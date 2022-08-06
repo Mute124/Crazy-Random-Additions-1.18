@@ -1,39 +1,36 @@
 {
   "display": {
     "icon": {
-      "item": "random_additions:magma_ingot"
+      "item": "minecraft:netherite_hoe"
     },
     "title": {
-      "translate": "advancements.superhotstuff.title"
+      "translate": "advancements.ilovehoes.title"
     },
     "description": {
-      "translate": "advancements.superhotstuff.descr"
+      "translate": "advancements.ilovehoes.descr"
     },
-    "frame": "goal",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
-    "superhotstuff": {
+    "ilovehoes": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "random_additions:magma_ingot"
+              "minecraft:netherite_hoe"
             ],
             "count": {
-              "min": 1,
-              "max": 1
+              "min": 35,
+              "max": 36
             }
           }
         ]
       }
     }
   },
-  "rewards": {
-    "experience": 1
-  },
-  "parent": "minecraft:story/smelt_iron"
+  "parent": "minecraft:husbandry/obtain_netherite_hoe"
 }
