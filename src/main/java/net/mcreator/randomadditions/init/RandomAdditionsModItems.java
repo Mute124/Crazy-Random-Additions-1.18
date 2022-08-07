@@ -104,7 +104,8 @@ public class RandomAdditionsModItems {
 	public static final RegistryObject<Item> INFECTED_SOIL = block(RandomAdditionsModBlocks.INFECTED_SOIL,
 			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSBLOCKS);
 	public static final RegistryObject<Item> SHOTGUN = REGISTRY.register("shotgun", () -> new ShotgunItem());
-	public static final RegistryObject<Item> UNOBTANIOUS = block(RandomAdditionsModBlocks.UNOBTANIOUS, null);
+	public static final RegistryObject<Item> UNOBTANIOUS = block(RandomAdditionsModBlocks.UNOBTANIOUS,
+			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSBLOCKS);
 	public static final RegistryObject<Item> WALTERWHITE = REGISTRY.register("walterwhite", () -> new WalterwhiteItem());
 	public static final RegistryObject<Item> AGST_ULTIMATUM = REGISTRY.register("agst_ultimatum", () -> new AGSTUltimatumItem());
 

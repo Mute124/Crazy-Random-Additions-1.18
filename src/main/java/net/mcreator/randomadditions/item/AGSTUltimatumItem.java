@@ -10,11 +10,11 @@ import net.minecraft.world.item.RecordItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.randomadditions.init.RandomAdditionsModTabs;
 import net.mcreator.randomadditions.init.RandomAdditionsModSounds;
 
 import java.util.List;
@@ -22,7 +22,7 @@ import java.util.List;
 public class AGSTUltimatumItem extends RecordItem {
 	public AGSTUltimatumItem() {
 		super(0, RandomAdditionsModSounds.REGISTRY.get(new ResourceLocation("random_additions:ultimatum")),
-				new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1).rarity(Rarity.RARE));
+				new Item.Properties().tab(RandomAdditionsModTabs.TAB_ADITIONALADDITIONSMISC).stacksTo(1).rarity(Rarity.RARE));
 	}
 
 	@Override

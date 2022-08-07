@@ -17,13 +17,14 @@ import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import net.mcreator.randomadditions.procedures.WalterwhiteLivingEntityIsHitWithItemProcedure;
+import net.mcreator.randomadditions.init.RandomAdditionsModTabs;
 import net.mcreator.randomadditions.init.RandomAdditionsModItems;
 
 import java.util.List;
 
 public class WalterwhiteItem extends Item {
 	public WalterwhiteItem() {
-		super(new Item.Properties().tab(null).stacksTo(1).fireResistant().rarity(Rarity.EPIC)
+		super(new Item.Properties().tab(RandomAdditionsModTabs.TAB_ADITIONALADDITIONSMISC).stacksTo(1).fireResistant().rarity(Rarity.EPIC)
 				.food((new FoodProperties.Builder()).nutrition(-100).saturationMod(-100f).alwaysEat()
 
 						.build()));

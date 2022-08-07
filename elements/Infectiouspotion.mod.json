@@ -11,8 +11,8 @@
         "effect": {
           "value": "CUSTOM:Infectious"
         },
-        "duration": 3600,
-        "amplifier": 1,
+        "duration": 6600,
+        "amplifier": 2,
         "ambient": true,
         "showParticles": true
       }
