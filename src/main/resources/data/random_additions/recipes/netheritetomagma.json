@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 200,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": "random_additions:magma_ingot"
+}
