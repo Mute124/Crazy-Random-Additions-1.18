@@ -18,11 +18,11 @@ public class BorgiumHoeItem extends HoeItem {
 			}
 
 			public float getSpeed() {
-				return 9f;
+				return 13f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 27f;
 			}
 
 			public int getLevel() {
@@ -36,6 +36,6 @@ public class BorgiumHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(RandomAdditionsModItems.BORGIUM_DUST.get()));
 			}
-		}, 0, -3f, new Item.Properties().tab(RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS));
+		}, 0, -1f, new Item.Properties().tab(RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSTOOLS));
 	}
 }

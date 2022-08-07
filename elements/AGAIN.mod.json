@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Do you like my sword sword sword my borgium sword!!!",
-    "achievementDescription": "Obtain a borgium sword",
+    "achievementDescription": "Obtain a borgium sword and don't eat it",
     "achievementIcon": {
       "value": "CUSTOM:BorgiumSword"
     },
