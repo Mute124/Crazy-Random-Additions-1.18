@@ -65,7 +65,8 @@ public class RandomAdditionsModItems {
 	public static final RegistryObject<Item> SAW = REGISTRY.register("saw", () -> new SawItem());
 	public static final RegistryObject<Item> CHAINSAW = REGISTRY.register("chainsaw", () -> new ChainsawItem());
 	public static final RegistryObject<Item> CORK = block(RandomAdditionsModBlocks.CORK, RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSBLOCKS);
-	public static final RegistryObject<Item> MAGMA_ORE = block(RandomAdditionsModBlocks.MAGMA_ORE, RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSBLOCKS);
+	public static final RegistryObject<Item> MAGMANIUM_ORE = block(RandomAdditionsModBlocks.MAGMANIUM_ORE,
+			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSBLOCKS);
 	public static final RegistryObject<Item> MAGMA_BLOCK = block(RandomAdditionsModBlocks.MAGMA_BLOCK,
 			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSBLOCKS);
 	public static final RegistryObject<Item> BORGIUM_ORE = block(RandomAdditionsModBlocks.BORGIUM_ORE,

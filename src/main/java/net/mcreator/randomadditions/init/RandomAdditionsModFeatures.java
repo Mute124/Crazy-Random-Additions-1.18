@@ -41,7 +41,7 @@ public class RandomAdditionsModFeatures {
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
 	public static final RegistryObject<Feature<?>> BISMUTH_ORE = register("bismuth_ore", BismuthOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, BismuthOreFeature.GENERATE_BIOMES, BismuthOreFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> MAGMA_ORE = register("magma_ore", MagmaOreFeature::feature,
+	public static final RegistryObject<Feature<?>> MAGMANIUM_ORE = register("magmanium_ore", MagmaOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, MagmaOreFeature.GENERATE_BIOMES, MagmaOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> BORGIUM_ORE = register("borgium_ore", BorgiumOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, BorgiumOreFeature.GENERATE_BIOMES, BorgiumOreFeature::placedFeature));
