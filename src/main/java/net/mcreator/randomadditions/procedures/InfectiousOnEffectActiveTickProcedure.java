@@ -1,10 +1,8 @@
 package net.mcreator.randomadditions.procedures;
 
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.util.Mth;
+import net.minecraftforge.eventbus.api.Event;
 
-import java.util.Random;
+import javax.annotation.Nullable;
 
 public class InfectiousOnEffectActiveTickProcedure {
 	public static void execute(Entity entity) {

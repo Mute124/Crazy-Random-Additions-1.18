@@ -758,7 +758,7 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magmanium_ore"
+      "registry_name": "magma_ore"
     },
     {
       "name": "MagmaBlock",
@@ -936,6 +936,55 @@
       }
     },
     {
+      "name": "InfectedGrass",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_grass"
+    },
+    {
+      "name": "InfectedSoil",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_soil"
+    },
+    {
+      "name": "TechnosCrown",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "technos_crown"
+    },
+    {
+      "name": "Shotgun",
+      "type": "rangeditem",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shotgun",
+      "path": "~/Guns"
+    },
+    {
+      "name": "HaloWorn",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halo_worn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
       "name": "Warehouse",
       "type": "structure",
       "sortid": 102,
@@ -960,69 +1009,28 @@
       "registry_name": "well"
     },
     {
-      "name": "HaloWorn",
-      "type": "procedure",
-      "sortid": 104,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "halo_worn",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "InfectedGrass",
-      "type": "block",
-      "sortid": 101,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infected_grass"
-    },
-    {
-      "name": "Shotgun",
-      "type": "rangeditem",
-      "sortid": 103,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shotgun",
-      "path": "~/Guns"
-    },
-    {
-      "name": "InfectedSoil",
-      "type": "block",
-      "sortid": 102,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infected_soil"
-    },
-    {
-      "name": "TechnosCrown",
-      "type": "item",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "technos_crown"
-    },
-    {
-      "name": "Dripstonepillar",
-      "type": "structure",
-      "sortid": 105,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dripstonepillar"
-    },
-    {
-      "name": "Blockafire",
+      "name": "Ilovehoes",
       "type": "achievement",
-      "sortid": 106,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blockafire"
+      "registry_name": "ilovehoes"
+    },
+    {
+      "name": "Coridor",
+      "type": "structure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coridor"
+    },
+    {
+      "name": "AGSTUltimatum",
+      "type": "musicdisc",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agst_ultimatum"
     },
     {
       "name": "Thisissaferight",
@@ -1033,20 +1041,100 @@
       "registry_name": "thisissaferight"
     },
     {
+      "name": "InfectiousOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectious_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Infectious",
+      "type": "potioneffect",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectious"
+    },
+    {
+      "name": "TESTACHIEVEMENTPLEASEIGNORE",
+      "type": "achievement",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testachievementpleaseignore"
+    },
+    {
+      "name": "Feelingbetter",
+      "type": "achievement",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feelingbetter"
+    },
+    {
+      "name": "Infectiouspotion",
+      "type": "potion",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectiouspotion"
+    },
+    {
+      "name": "Blockafire",
+      "type": "achievement",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockafire"
+    },
+    {
+      "name": "MrWalter",
+      "type": "achievement",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_walter"
+    },
+    {
+      "name": "FoodbutNot",
+      "type": "achievement",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foodbut_not"
+    },
+    {
+      "name": "Walterwhite",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walterwhite"
+    },
+    {
+      "name": "Netheritetomagma",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritetomagma"
+    },
+    {
       "name": "Magmaingotuse",
       "type": "fuel",
       "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magmaingotuse"
-    },
-    {
-      "name": "Magmablockuse",
-      "type": "fuel",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magmablockuse"
     },
     {
       "name": "Test03",
@@ -1065,20 +1153,72 @@
       "registry_name": "why"
     },
     {
-      "name": "RandomAdditionsblocks",
-      "type": "tab",
-      "sortid": 113,
+      "name": "Infectiouspotionrecipe",
+      "type": "recipe",
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "random_additionsblocks"
+      "registry_name": "infectiouspotionrecipe"
     },
     {
-      "name": "InfectiousEffectStartedapplied",
-      "type": "procedure",
-      "sortid": 114,
+      "name": "Aditionaladditionsmisc",
+      "type": "tab",
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infectious_effect_startedapplied",
+      "registry_name": "aditionaladditionsmisc"
+    },
+    {
+      "name": "Unobtanious",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unobtanious"
+    },
+    {
+      "name": "Infection",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infection",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MmmTasty",
+      "type": "achievement",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mmm_tasty"
+    },
+    {
+      "name": "Magmablockuse",
+      "type": "fuel",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmablockuse"
+    },
+    {
+      "name": "InfectiousEffectExpires",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectious_effect_expires",
       "metadata": {
         "dependencies": [
           {
@@ -1105,114 +1245,6 @@
       }
     },
     {
-      "name": "InfectiousOnEffectActiveTick",
-      "type": "procedure",
-      "sortid": 116,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infectious_on_effect_active_tick",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Feelingbetter",
-      "type": "achievement",
-      "sortid": 117,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "feelingbetter"
-    },
-    {
-      "name": "InfectiousEffectExpires",
-      "type": "procedure",
-      "sortid": 117,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infectious_effect_expires",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Infectious",
-      "type": "potioneffect",
-      "sortid": 114,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infectious"
-    },
-    {
-      "name": "Unobtanious",
-      "type": "block",
-      "sortid": 118,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "unobtanious"
-    },
-    {
-      "name": "Infectiouspotion",
-      "type": "potion",
-      "sortid": 119,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infectiouspotion"
-    },
-    {
-      "name": "Infectiouspotionrecipe",
-      "type": "recipe",
-      "sortid": 120,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infectiouspotionrecipe"
-    },
-    {
-      "name": "Infection",
-      "type": "procedure",
-      "sortid": 121,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "infection",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ThethingsthatTheyCouldntdo",
-      "type": "achievement",
-      "sortid": 122,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thethingsthat_they_couldntdo"
-    },
-    {
-      "name": "MmmTasty",
-      "type": "achievement",
-      "sortid": 123,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mmm_tasty"
-    },
-    {
       "name": "AGAIN",
       "type": "achievement",
       "sortid": 124,
@@ -1221,12 +1253,20 @@
       "registry_name": "again"
     },
     {
-      "name": "Walterwhite",
-      "type": "item",
-      "sortid": 125,
+      "name": "InfectiousEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "walterwhite"
+      "registry_name": "infectious_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     },
     {
       "name": "WalterwhiteLivingEntityIsHitWithItem",
@@ -1245,68 +1285,28 @@
       }
     },
     {
-      "name": "MrWalter",
-      "type": "achievement",
-      "sortid": 127,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mr_walter"
-    },
-    {
-      "name": "FoodbutNot",
-      "type": "achievement",
-      "sortid": 128,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "foodbut_not"
-    },
-    {
-      "name": "TESTACHIEVEMENTPLEASEIGNORE",
-      "type": "achievement",
-      "sortid": 129,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testachievementpleaseignore"
-    },
-    {
-      "name": "Ilovehoes",
-      "type": "achievement",
-      "sortid": 130,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ilovehoes"
-    },
-    {
-      "name": "AGSTUltimatum",
-      "type": "musicdisc",
-      "sortid": 132,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "agst_ultimatum"
-    },
-    {
-      "name": "Aditionaladditionsmisc",
-      "type": "tab",
-      "sortid": 133,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "aditionaladditionsmisc"
-    },
-    {
-      "name": "Netheritetomagma",
-      "type": "recipe",
-      "sortid": 134,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "netheritetomagma"
-    },
-    {
-      "name": "Coridor",
+      "name": "Dripstonepillar",
       "type": "structure",
-      "sortid": 135,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "coridor"
+      "registry_name": "dripstonepillar"
+    },
+    {
+      "name": "RandomAdditionsblocks",
+      "type": "tab",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_additionsblocks"
+    },
+    {
+      "name": "ThethingsthatTheyCouldntdo",
+      "type": "achievement",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thethingsthat_they_couldntdo"
     }
   ],
   "variable_elements": [
@@ -1454,11 +1454,11 @@
     "name": "~",
     "children": [
       {
-        "name": "Guns",
+        "name": "WIP stuff wip is work in progress",
         "children": []
       },
       {
-        "name": "WIP stuff wip is work in progress",
+        "name": "Guns",
         "children": []
       }
     ]
