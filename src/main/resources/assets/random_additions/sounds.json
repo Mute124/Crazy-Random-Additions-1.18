@@ -8,5 +8,15 @@
         "stream": true
       }
     ]
+  },
+  "scpsltrackbutdiffrent": {
+    "category": "record",
+    "subtitle": "subtitles.scpsltrackbutdiffrent",
+    "sounds": [
+      {
+        "name": "random_additions:scp-sl-track-but-mixed-up-by-0.01_",
+        "stream": true
+      }
+    ]
   }
 }

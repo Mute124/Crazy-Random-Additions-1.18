@@ -21,7 +21,7 @@ import java.util.List;
 
 public class AGSTUltimatumItem extends RecordItem {
 	public AGSTUltimatumItem() {
-		super(0, RandomAdditionsModSounds.REGISTRY.get(new ResourceLocation("random_additions:ultimatum")),
+		super(0, RandomAdditionsModSounds.REGISTRY.get(new ResourceLocation("random_additions:scpsltrackbutdiffrent")),
 				new Item.Properties().tab(RandomAdditionsModTabs.TAB_ADITIONALADDITIONSMISC).stacksTo(1).rarity(Rarity.RARE));
 	}
 
@@ -34,6 +34,6 @@ public class AGSTUltimatumItem extends RecordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Made by Epidemic sounds"));
+		list.add(new TextComponent("not really diffrent from the original but still different"));
 	}
 }
