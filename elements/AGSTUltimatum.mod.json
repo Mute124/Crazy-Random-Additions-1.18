@@ -1,0 +1,19 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "thedisc",
+    "name": "AGST-Ultimatum",
+    "description": "Now playing AGST-Ultimatum by Epidemic sounds",
+    "creativeTab": {
+      "value": "CUSTOM:Aditionaladditionsmisc"
+    },
+    "music": {
+      "value": "CUSTOM:ultimatum"
+    },
+    "specialInfo": [
+      "Made by Epidemic sounds"
+    ],
+    "hasGlow": true
+  }
+}

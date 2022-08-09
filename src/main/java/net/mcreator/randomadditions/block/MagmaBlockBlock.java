@@ -1,6 +1,8 @@
 
 package net.mcreator.randomadditions.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
@@ -18,7 +20,8 @@ import java.util.Collections;
 
 public class MagmaBlockBlock extends Block {
 	public MagmaBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).lightLevel(s -> 4).requiresCorrectToolForDrops()
+				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "random_additions:borgium_dust"
+    },
+    "title": {
+      "translate": "advancements.why.title"
+    },
+    "description": {
+      "translate": "advancements.why.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "why": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "random_additions:borgium_dust"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 38
+  },
+  "parent": "random_additions:deleted_mod_element"
+}

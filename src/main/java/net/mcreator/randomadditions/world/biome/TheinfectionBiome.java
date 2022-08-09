@@ -39,10 +39,10 @@ import java.util.List;
 import com.google.common.collect.ImmutableList;
 
 public class TheinfectionBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(0.857142857143f, 1.142857142857f),
-			Climate.Parameter.span(-0.142857142857f, 0.142857142857f), Climate.Parameter.span(0.367142857143f, 0.652857142857f),
-			Climate.Parameter.span(0.657142857143f, 0.942857142857f), Climate.Parameter.point(0),
-			Climate.Parameter.span(-1.037881389433f, -0.752167103719f), 0);
+	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(0.785714285714f, 1.214285714286f),
+			Climate.Parameter.span(-0.214285714286f, 0.214285714286f), Climate.Parameter.span(0.295714285714f, 0.724285714286f),
+			Climate.Parameter.span(0.585714285714f, 1.014285714286f), Climate.Parameter.point(0),
+			Climate.Parameter.span(-1.109309960862f, -0.68073853229f), 0);
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-970763777).waterColor(-973041373).waterFogColor(-973041373)

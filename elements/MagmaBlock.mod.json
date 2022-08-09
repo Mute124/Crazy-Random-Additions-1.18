@@ -11,7 +11,7 @@
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -32,14 +32,14 @@
         "subtract": false
       }
     ],
-    "name": "Block of Magma",
+    "name": "Block of Magmanium",
     "specialInfo": [],
     "hardness": 5.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:RandomAdditionstools"
+      "value": "CUSTOM:RandomAdditionsblocks"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -58,6 +58,9 @@
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
@@ -76,7 +79,22 @@
     "soundOnStep": {
       "value": "METAL"
     },
-    "luminance": 0,
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 4,
     "unbreakable": false,
     "breakHarvestLevel": 4,
     "spawnParticles": false,

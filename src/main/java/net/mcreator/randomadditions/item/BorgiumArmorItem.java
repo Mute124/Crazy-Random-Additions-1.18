@@ -21,7 +21,7 @@ public abstract class BorgiumArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 30;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 44;
 			}
 
 			@Override
@@ -51,12 +51,12 @@ public abstract class BorgiumArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 3f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.05f;
 			}
 		}, slot, properties);
 	}

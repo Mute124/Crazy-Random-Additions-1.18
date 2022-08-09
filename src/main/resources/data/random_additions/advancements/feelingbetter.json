@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "random_additions:infected_soil"
+    },
+    "title": {
+      "translate": "advancements.feelingbetter.title"
+    },
+    "description": {
+      "translate": "advancements.feelingbetter.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "feelingbetter": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "random_additions:unobtanious"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "random_additions:deleted_mod_element"
+}

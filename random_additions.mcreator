@@ -1007,6 +1007,306 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "well"
+    },
+    {
+      "name": "Ilovehoes",
+      "type": "achievement",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ilovehoes"
+    },
+    {
+      "name": "Coridor",
+      "type": "structure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coridor"
+    },
+    {
+      "name": "AGSTUltimatum",
+      "type": "musicdisc",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agst_ultimatum"
+    },
+    {
+      "name": "Thisissaferight",
+      "type": "achievement",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thisissaferight"
+    },
+    {
+      "name": "InfectiousOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectious_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Infectious",
+      "type": "potioneffect",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectious"
+    },
+    {
+      "name": "TESTACHIEVEMENTPLEASEIGNORE",
+      "type": "achievement",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testachievementpleaseignore"
+    },
+    {
+      "name": "Feelingbetter",
+      "type": "achievement",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feelingbetter"
+    },
+    {
+      "name": "Infectiouspotion",
+      "type": "potion",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectiouspotion"
+    },
+    {
+      "name": "Blockafire",
+      "type": "achievement",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockafire"
+    },
+    {
+      "name": "MrWalter",
+      "type": "achievement",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_walter"
+    },
+    {
+      "name": "FoodbutNot",
+      "type": "achievement",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foodbut_not"
+    },
+    {
+      "name": "Walterwhite",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walterwhite"
+    },
+    {
+      "name": "Netheritetomagma",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritetomagma"
+    },
+    {
+      "name": "Magmaingotuse",
+      "type": "fuel",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmaingotuse"
+    },
+    {
+      "name": "Test03",
+      "type": "enchantment",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_03"
+    },
+    {
+      "name": "Why",
+      "type": "achievement",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "why"
+    },
+    {
+      "name": "Infectiouspotionrecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectiouspotionrecipe"
+    },
+    {
+      "name": "Aditionaladditionsmisc",
+      "type": "tab",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aditionaladditionsmisc"
+    },
+    {
+      "name": "Unobtanious",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unobtanious"
+    },
+    {
+      "name": "Infection",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infection",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MmmTasty",
+      "type": "achievement",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mmm_tasty"
+    },
+    {
+      "name": "Magmablockuse",
+      "type": "fuel",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmablockuse"
+    },
+    {
+      "name": "InfectiousEffectExpires",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectious_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfectiousActiveTickCondition",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectious_active_tick_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AGAIN",
+      "type": "achievement",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "again"
+    },
+    {
+      "name": "InfectiousEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infectious_effect_startedapplied",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WalterwhiteLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walterwhite_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dripstonepillar",
+      "type": "structure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dripstonepillar"
+    },
+    {
+      "name": "RandomAdditionsblocks",
+      "type": "tab",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_additionsblocks"
+    },
+    {
+      "name": "ThethingsthatTheyCouldntdo",
+      "type": "achievement",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thethingsthat_they_couldntdo"
     }
   ],
   "variable_elements": [
@@ -1023,92 +1323,140 @@
       "value": "0"
     }
   ],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "ultimatum",
+      "files": [
+        "ultimatum----kopia"
+      ],
+      "category": "music",
+      "subtitle": "..."
+    }
+  ],
   "language_map": {
     "en_us": {
-      "item.minecraft.potion.effect.poweroftheborgor": "Poweroftheborgor",
       "item.random_additions.grenade": "Grenade",
-      "itemGroup.tabrandomadditionsarmor": "Randomadditionsarmor",
-      "advancements.superhotstuff.descr": "Obtain a magma ingot",
-      "item.minecraft.splash_potion.effect.poweroftheborgor": "Splash Poweroftheborgor",
+      "item.minecraft.splash_potion.effect.infectiouspotion": "Splash Potion of Infectiousness",
       "item.random_additions.saw": "Saw",
-      "advancements.suspiciouslookingborgor.title": "Suspicious looking borgor",
-      "block.random_additions.cork": "Cork",
+      "advancements.mr_walter.descr": "Obtain the great Walter White",
+      "item.minecraft.tipped_arrow.effect.infectiouspotion": "Arrow of Infectiousness",
       "item.random_additions.borgium_armor_chestplate": "Borgium Chestplate",
-      "item.random_additions.technos_crown": "Technos Crown",
       "item.random_additions.bismuth_tools_pickaxe": "Bismuth Pickaxe",
+      "item.minecraft.potion.effect.infectiouspotion": "Potion of Infectiousness",
       "advancements.superhotstuff.title": "Super hot stuff",
       "item.random_additions.bismuth": "Bismuth",
       "item.minecraft.tipped_arrow.effect.confusion": "Arrow of Confusion",
       "itemGroup.tabrandomadditions_items": "Random additions Items",
-      "item.random_additions.shotgun": "Shotgun",
-      "item.minecraft.tipped_arrow.effect.poweroftheborgor": "Arrow of Poweroftheborgor",
-      "item.random_additions.borgium_hoe": "Borgium Hoe",
       "block.random_additions.bismuth_ore": "Bismuth Ore",
-      "advancements.economycrasher.title": "Economy crasher",
-      "item.minecraft.lingering_potion.effect.confusion": "Lingering Confusion",
-      "effect.confusion": "Confusion",
+      "advancements.again.title": "Do you like my sword sword sword my borgium sword!!!",
+      "advancements.foodbut_not.descr": "Get borgium",
       "advancements.economycrasher.descr": "Have 1000-2000 emeralds in your inventory",
-      "item.random_additions.wood_armor_armor_leggings": "Wood Leggings",
-      "advancements.explosiveordnance.descr": "Obtain a grenade",
       "advancements.oooshiny.title": "Ooo shiny",
-      "item.minecraft.splash_potion.effect.confusion": "Splash Confusion",
       "item.random_additions.bismuth_tools_hoe": "Bismuth Hoe",
-      "advancements.sawtime.descr": "Make a saw",
       "biome.random_additions.theinfection": "The infection",
-      "item.random_additions.drillbit": "Drill bit",
+      "item.random_additions.agst_ultimatum.desc": "Now playing AGST-Ultimatum by Epidemic sounds",
       "item.random_additions.heart": "Heart",
       "item.random_additions.chainsaw": "Chainsaw",
       "item.random_additions.enchantedborgor": "Enchantedborgor",
-      "effect.poweroftheborgor": "Power of the borgor",
-      "item.random_additions.magma_ingot": "Magma",
-      "item.random_additions.wood_armor_armor_boots": "Wood Boots",
-      "item.random_additions.gun": "gun",
+      "item.random_additions.magma_ingot": "Magmanium ingot",
+      "advancements.thethingsthat_they_couldntdo.descr": "Defeat the destroyer of civilizations or also called the wither and make the Infection Spread again",
+      "block.random_additions.unobtanious": "Unobtanious",
+      "advancements.ilovehoes.descr": "What are you doing with your life",
+      "advancements.blockafire.title": "Set my block a fire",
+      "advancements.why.title": "Why would you do that?",
       "item.random_additions.borgium_armor_boots": "Borgium Boots",
-      "block.random_additions.borgium_block": "Block of Borgium",
-      "item.random_additions.borgium_axe": "Borgium Axe",
+      "advancements.testachievementpleaseignore.title": "TEST ACHIEVEMENT PLEASE IGNORE",
+      "advancements.ilovehoes.title": "I \u003c3 hoes",
       "item.random_additions.borgium_dust": "Borgium",
-      "advancements.whatdid_itellyou.descr": "Eat a Suspicious Borgor",
       "effect.random_additions.confusion": "Confusion",
-      "itemGroup.tabrandom_additionstools": "Random Additionstools",
-      "item.random_additions.bug_drink": "Bug Drink",
+      "subtitles.ultimatum": "...",
       "item.random_additions.bark": "Bark",
       "advancements.explosiveordnance.title": "Explosive ordnance",
-      "advancements.whatdid_itellyou.title": "What did I tell you",
-      "advancements.joingame.descr": "Thank you so much for downloading my mod!",
       "item.minecraft.potion.effect.confusion": "Confusion",
-      "item.random_additions.grenadethrownitem": "Grenadethrownitem",
-      "block.random_additions.borgium_ore": "Borgium Ore",
       "item.random_additions.borgor": "Suspicious Borgor",
-      "block.random_additions.infected_soil": "Infected Soil",
-      "advancements.joingame.title": "Loaded in",
+      "advancements.joingame.title": "Thank you so much!",
       "item.random_additions.wood_armor_armor_chestplate": "Wood Chestplate",
-      "item.minecraft.lingering_potion.effect.poweroftheborgor": "Lingering Poweroftheborgor",
-      "block.random_additions.infected_grass": "Infected Grass",
-      "advancements.sawtime.title": "Saw time",
       "effect.random_additions.poweroftheborgor": "Power of the borgor",
       "block.random_additions.bismuth_block": "Block of Bismuth",
       "advancements.oooshiny.descr": "Obtain a Bismuth gem",
       "itemGroup.tabrandom_additions_weapons": "Random Additions Weapons",
-      "item.random_additions.bismuth_tools_sword": "Bismuth Sword",
+      "advancements.foodbut_not.title": "Food but Not",
       "item.random_additions.borgium_shovel": "Borgium Shovel",
-      "item.random_additions.borgium_armor_helmet": "Borgium Helmet",
-      "item.random_additions.bismuth_tools_shovel": "Bismuth Shovel",
       "item.random_additions.wood_armor_armor_helmet": "Wood Helmet",
       "advancements.suspiciouslookingborgor.descr": "I would not eat that if i were you",
-      "block.random_additions.magma_ore": "Magma Ore",
-      "item.random_additions.bullets": "Bullets",
+      "item.minecraft.lingering_potion.effect.infectiouspotion": "Lingering Potion of Infectiousness",
+      "item.random_additions.agst_ultimatum": "AGST-Ultimatum",
       "item.random_additions.borgium_armor_leggings": "Borgium Leggings",
+      "advancements.thethingsthat_they_couldntdo.title": "The things that They Couldn\u0027t do",
+      "block.random_additions.magma_block": "Block of Magmanium",
+      "item.minecraft.potion.effect.poweroftheborgor": "Poweroftheborgor",
+      "itemGroup.tabrandomadditionsarmor": "Random additions armor",
+      "advancements.superhotstuff.descr": "Obtain a magmanium ingot",
+      "item.minecraft.splash_potion.effect.poweroftheborgor": "Splash Poweroftheborgor",
+      "advancements.suspiciouslookingborgor.title": "Suspicious looking borgor",
+      "block.random_additions.magmanium_ore": "Magmanium Ore",
+      "block.random_additions.cork": "Cork",
+      "item.random_additions.technos_crown": "Technos Crown",
+      "advancements.again.descr": "Obtain a borgium sword and don\u0027t eat it",
+      "item.random_additions.shotgun": "Shotgun",
+      "item.random_additions.borgium_hoe": "Borgium Hoe",
+      "item.minecraft.tipped_arrow.effect.poweroftheborgor": "Arrow of Poweroftheborgor",
+      "advancements.mr_walter.title": "Walter Walter the great Walter",
+      "advancements.economycrasher.title": "Economy crasher",
+      "item.minecraft.lingering_potion.effect.confusion": "Lingering Confusion",
+      "advancements.mmm_tasty.descr": "Eat a borgor and get the powers it has",
+      "effect.confusion": "Confusion",
+      "item.random_additions.wood_armor_armor_leggings": "Wood Leggings",
+      "advancements.explosiveordnance.descr": "Obtain a grenade",
+      "item.minecraft.splash_potion.effect.confusion": "Splash Confusion",
+      "advancements.testachievementpleaseignore.descr": "Yes this is a stanley parable refrence",
+      "advancements.sawtime.descr": "Make a saw",
+      "item.random_additions.drillbit": "Drill bit",
+      "advancements.feelingbetter.title": "Feeling better",
+      "advancements.thisissaferight.title": "This is safe right?",
+      "advancements.why.descr": "You ate a piece of borgium are you happy?",
+      "effect.poweroftheborgor": "Power of the borgor",
+      "item.random_additions.wood_armor_armor_boots": "Wood Boots",
+      "item.random_additions.gun": "gun",
+      "enchantment.random_additions.test_03": "quickening",
+      "block.random_additions.borgium_block": "Block of Borgium",
+      "item.random_additions.borgium_axe": "Borgium Axe",
+      "advancements.whatdid_itellyou.descr": "Eat a Suspicious Borgor",
+      "itemGroup.tabrandom_additionstools": "Random Additions tools",
+      "item.random_additions.bug_drink": "Bug Drink",
+      "item.random_additions.walterwhite": "Walter white",
+      "advancements.whatdid_itellyou.title": "What did I tell you",
+      "advancements.blockafire.descr": "Craft a Magmanium block",
+      "advancements.joingame.descr": "Thank you so much for downloading my mod!",
+      "item.random_additions.grenadethrownitem": "Grenadethrownitem",
+      "advancements.feelingbetter.descr": "Get infected and survive to tell the tale",
+      "block.random_additions.borgium_ore": "Borgium Ore",
+      "block.random_additions.infected_soil": "Infected Soil",
+      "effect.random_additions.infectious": "infected",
+      "item.minecraft.lingering_potion.effect.poweroftheborgor": "Lingering Poweroftheborgor",
+      "block.random_additions.infected_grass": "Infected Grass",
+      "advancements.sawtime.title": "Saw time",
+      "item.random_additions.bismuth_tools_sword": "Bismuth Sword",
+      "item.random_additions.borgium_armor_helmet": "Borgium Helmet",
+      "item.random_additions.bismuth_tools_shovel": "Bismuth Shovel",
+      "itemGroup.tabaditionaladditionsmisc": "random additions misc",
+      "item.random_additions.bullets": "Bullets",
+      "itemGroup.tabrandom_additionsblocks": "Random Additions blocks",
       "item.random_additions.bismuth_tools_axe": "Bismuth Axe",
       "itemGroup.tabrandom_additions_food": "Random Additions Food",
       "item.random_additions.borgium_sword": "Borgium Sword",
-      "block.random_additions.magma_block": "Block of Magma",
+      "advancements.thisissaferight.descr": "Step foot in the Blue wasteland called the infection biome ",
+      "advancements.mmm_tasty.title": "Mmm Tasty",
       "item.random_additions.borgium_pickaxe": "Borgium Pickaxe"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
+      {
+        "name": "WIP stuff wip is work in progress",
+        "children": []
+      },
       {
         "name": "Guns",
         "children": []

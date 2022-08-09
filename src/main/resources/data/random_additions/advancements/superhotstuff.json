@@ -9,8 +9,8 @@
     "description": {
       "translate": "advancements.superhotstuff.descr"
     },
-    "frame": "task",
-    "show_toast": false,
+    "frame": "goal",
+    "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -35,5 +35,5 @@
   "rewards": {
     "experience": 1
   },
-  "parent": "random_additions:oooshiny"
+  "parent": "minecraft:story/smelt_iron"
 }

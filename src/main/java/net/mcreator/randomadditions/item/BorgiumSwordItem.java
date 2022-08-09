@@ -22,7 +22,7 @@ public class BorgiumSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 17f;
 			}
 
 			public int getLevel() {
@@ -36,6 +36,6 @@ public class BorgiumSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(RandomAdditionsModItems.BORGIUM_DUST.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(RandomAdditionsModTabs.TAB_RANDOM_ADDITIONS_WEAPONS));
+		}, 3, -2f, new Item.Properties().tab(RandomAdditionsModTabs.TAB_RANDOM_ADDITIONS_WEAPONS));
 	}
 }

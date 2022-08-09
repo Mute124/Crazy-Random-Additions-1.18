@@ -18,11 +18,11 @@ public class BorgiumPickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 9f;
+				return 13f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 8f;
 			}
 
 			public int getLevel() {

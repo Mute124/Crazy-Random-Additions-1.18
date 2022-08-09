@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class BorgiumBlockBlock extends Block {
 	public BorgiumBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops().speedFactor(0.7f));
 	}
 
 	@Override

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "random_additions:infected_grass"
+    },
+    "title": {
+      "translate": "advancements.thisissaferight.title"
+    },
+    "description": {
+      "translate": "advancements.thisissaferight.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thisissaferight": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "random_additions:theinfection"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  },
+  "parent": "minecraft:story/root"
+}

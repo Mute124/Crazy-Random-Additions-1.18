@@ -1,1 +1,12 @@
-{}
+{
+  "ultimatum": {
+    "category": "music",
+    "subtitle": "subtitles.ultimatum",
+    "sounds": [
+      {
+        "name": "random_additions:ultimatum----kopia",
+        "stream": true
+      }
+    ]
+  }
+}

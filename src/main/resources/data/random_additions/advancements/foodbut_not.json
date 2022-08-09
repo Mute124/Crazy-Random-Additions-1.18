@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "random_additions:borgium_dust"
+    },
+    "title": {
+      "translate": "advancements.foodbut_not.title"
+    },
+    "description": {
+      "translate": "advancements.foodbut_not.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "foodbut_not": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "random_additions:borgium_dust"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "random_additions:oooshiny"
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "random_additions:deleted_mod_element"
+    },
+    "title": {
+      "translate": "advancements.testachievementpleaseignore.title"
+    },
+    "description": {
+      "translate": "advancements.testachievementpleaseignore.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "testachievementpleaseignore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_hoe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:husbandry/obtain_netherite_hoe"
+}

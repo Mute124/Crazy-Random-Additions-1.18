@@ -1,6 +1,5 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
       "item": "random_additions:saw"
     },
@@ -10,7 +9,7 @@
     "description": {
       "translate": "advancements.sawtime.descr"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -35,5 +34,6 @@
   },
   "rewards": {
     "experience": 5
-  }
+  },
+  "parent": "minecraft:story/iron_tools"
 }

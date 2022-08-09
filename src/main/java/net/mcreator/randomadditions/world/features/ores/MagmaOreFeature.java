@@ -43,11 +43,11 @@ public class MagmaOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new MagmaOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("random_additions:magma_ore", FEATURE,
-				new OreConfiguration(MagmaOreFeatureRuleTest.INSTANCE, RandomAdditionsModBlocks.MAGMA_ORE.get().defaultBlockState(), 3));
-		PLACED_FEATURE = PlacementUtils.register("random_additions:magma_ore", CONFIGURED_FEATURE,
+		CONFIGURED_FEATURE = FeatureUtils.register("random_additions:magmanium_ore", FEATURE,
+				new OreConfiguration(MagmaOreFeatureRuleTest.INSTANCE, RandomAdditionsModBlocks.MAGMANIUM_ORE.get().defaultBlockState(), 3));
+		PLACED_FEATURE = PlacementUtils.register("random_additions:magmanium_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(5), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(33)), BiomeFilter.biome()));
+						HeightRangePlacement.triangle(VerticalAnchor.absolute(1), VerticalAnchor.absolute(33)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -77,14 +77,15 @@ public class MagmaOreFeature extends OreFeature {
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("random_additions:magma_ore_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("random_additions:magmanium_ore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;
 
 		public boolean test(BlockState blockAt, Random random) {
 			if (base_blocks == null) {
-				base_blocks = List.of(Blocks.STONE);
+				base_blocks = List.of(Blocks.STONE, Blocks.DIORITE, Blocks.GRANITE, Blocks.ANDESITE, Blocks.STONE, Blocks.IRON_ORE, Blocks.COAL_ORE,
+						Blocks.REDSTONE_ORE, Blocks.REDSTONE_ORE, Blocks.GOLD_ORE, Blocks.LAPIS_ORE, Blocks.DIAMOND_ORE, Blocks.EMERALD_ORE);
 			}
 			return base_blocks.contains(blockAt.getBlock());
 		}

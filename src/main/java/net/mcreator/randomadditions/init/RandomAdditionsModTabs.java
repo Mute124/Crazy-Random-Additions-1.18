@@ -17,6 +17,8 @@ public class RandomAdditionsModTabs {
 	public static CreativeModeTab TAB_RANDOM_ADDITIONS_WEAPONS;
 	public static CreativeModeTab TAB_RANDOMADDITIONSARMOR;
 	public static CreativeModeTab TAB_RANDOMADDITIONS_ITEMS;
+	public static CreativeModeTab TAB_RANDOM_ADDITIONSBLOCKS;
+	public static CreativeModeTab TAB_ADITIONALADDITIONSMISC;
 
 	public static void load() {
 		TAB_RANDOM_ADDITIONSTOOLS = new CreativeModeTab("tabrandom_additionstools") {
@@ -74,5 +76,27 @@ public class RandomAdditionsModTabs {
 				return true;
 			}
 		}.setBackgroundSuffix("item_search.png");
+		TAB_RANDOM_ADDITIONSBLOCKS = new CreativeModeTab("tabrandom_additionsblocks") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(RandomAdditionsModBlocks.INFECTED_GRASS.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_ADITIONALADDITIONSMISC = new CreativeModeTab("tabaditionaladditionsmisc") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(RandomAdditionsModItems.AGST_ULTIMATUM.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
 	}
 }

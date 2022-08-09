@@ -22,7 +22,7 @@ public class Bismuth_toolsAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 15f;
+				return 9f;
 			}
 
 			public int getLevel() {

@@ -17,9 +17,13 @@
   },
   "criteria": {
     "joingame": {
-      "trigger": "minecraft:changed_dimension",
+      "trigger": "minecraft:placed_block",
       "conditions": {
-        "to": "minecraft:overworld"
+        "item": {
+          "items": [
+            "minecraft:crafting_table"
+          ]
+        }
       }
     }
   },

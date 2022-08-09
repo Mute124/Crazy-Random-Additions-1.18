@@ -1,6 +1,8 @@
 
 package net.mcreator.randomadditions.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
@@ -11,6 +13,7 @@ import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.randomadditions.init.RandomAdditionsModItems;
@@ -20,12 +23,18 @@ import java.util.Collections;
 
 public class MagmaOreBlock extends Block {
 	public MagmaOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(6f, 8.705505632961241f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(6f, 8.705505632961241f).lightLevel(s -> 2)
+				.requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
+		return 1;
 	}
 
 	@Override

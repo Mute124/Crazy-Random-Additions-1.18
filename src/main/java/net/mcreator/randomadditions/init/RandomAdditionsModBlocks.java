@@ -7,9 +7,14 @@ package net.mcreator.randomadditions.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.randomadditions.block.UnobtaniousBlock;
 import net.mcreator.randomadditions.block.MagmaOreBlock;
 import net.mcreator.randomadditions.block.MagmaBlockBlock;
 import net.mcreator.randomadditions.block.InfectedSoilBlock;
@@ -32,4 +37,13 @@ public class RandomAdditionsModBlocks {
 	public static final RegistryObject<Block> BORGIUM_BLOCK = REGISTRY.register("borgium_block", () -> new BorgiumBlockBlock());
 	public static final RegistryObject<Block> INFECTED_GRASS = REGISTRY.register("infected_grass", () -> new InfectedGrassBlock());
 	public static final RegistryObject<Block> INFECTED_SOIL = REGISTRY.register("infected_soil", () -> new InfectedSoilBlock());
+	public static final RegistryObject<Block> UNOBTANIOUS = REGISTRY.register("unobtanious", () -> new UnobtaniousBlock());
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ClientSideHandler {
+		@SubscribeEvent
+		public static void clientSetup(FMLClientSetupEvent event) {
+			UnobtaniousBlock.registerRenderLayer();
+		}
+	}
 }
