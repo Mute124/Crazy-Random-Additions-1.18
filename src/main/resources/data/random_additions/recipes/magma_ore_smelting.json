@@ -3,7 +3,7 @@
   "experience": 1.4,
   "cookingtime": 200,
   "ingredient": {
-    "item": "random_additions:magmanium_ore"
+    "item": "random_additions:magma_ore"
   },
   "result": "random_additions:magma_ingot"
 }
