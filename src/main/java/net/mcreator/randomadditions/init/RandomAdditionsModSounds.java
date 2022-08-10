@@ -21,6 +21,7 @@ public class RandomAdditionsModSounds {
 		REGISTRY.put(new ResourceLocation("random_additions", "ultimatum"), new SoundEvent(new ResourceLocation("random_additions", "ultimatum")));
 		REGISTRY.put(new ResourceLocation("random_additions", "scpsltrackbutdiffrent"),
 				new SoundEvent(new ResourceLocation("random_additions", "scpsltrackbutdiffrent")));
+		REGISTRY.put(new ResourceLocation("random_additions", "lucidremix"), new SoundEvent(new ResourceLocation("random_additions", "lucidremix")));
 	}
 
 	@SubscribeEvent

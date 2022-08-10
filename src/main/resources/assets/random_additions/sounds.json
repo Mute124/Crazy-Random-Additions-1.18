@@ -18,5 +18,15 @@
         "stream": true
       }
     ]
+  },
+  "lucidremix": {
+    "category": "music",
+    "subtitle": "subtitles.lucidremix",
+    "sounds": [
+      {
+        "name": "random_additions:es_lucid_remiz",
+        "stream": true
+      }
+    ]
   }
 }

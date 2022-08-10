@@ -1,0 +1,19 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc3",
+    "name": "AGST-Lucid remix",
+    "description": "AGST-Lucid remix by Hyperexecube",
+    "creativeTab": {
+      "value": "CUSTOM:Aditionaladditionsmisc"
+    },
+    "music": {
+      "value": "CUSTOM:lucidremix"
+    },
+    "specialInfo": [
+      "Original by epidemic sounds"
+    ],
+    "hasGlow": false
+  }
+}
