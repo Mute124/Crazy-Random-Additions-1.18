@@ -1,6 +1,9 @@
 
 package net.mcreator.randomadditions.item;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.RecordItem;
@@ -20,6 +23,12 @@ public class SLremixItem extends RecordItem {
 	public SLremixItem() {
 		super(0, RandomAdditionsModSounds.REGISTRY.get(new ResourceLocation("random_additions:scpsltrackbutdiffrent")),
 				new Item.Properties().tab(RandomAdditionsModTabs.TAB_ADITIONALADDITIONSMISC).stacksTo(1).rarity(Rarity.RARE));
+	}
+
+	@Override
+	@OnlyIn(Dist.CLIENT)
+	public boolean isFoil(ItemStack itemstack) {
+		return true;
 	}
 
 	@Override
