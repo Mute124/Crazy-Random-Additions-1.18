@@ -32,5 +32,5 @@
       }
     }
   },
-  "parent": "minecraft:adventure/root"
+  "parent": "minecraft:adventure/play_jukebox_in_meadows"
 }
