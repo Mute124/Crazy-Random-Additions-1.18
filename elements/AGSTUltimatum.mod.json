@@ -3,16 +3,16 @@
   "_type": "musicdisc",
   "definition": {
     "texture": "thedisc",
-    "name": "SCP SL remix ",
-    "description": "Made by Hyperexecube in like 20 minutes",
+    "name": "AGST Ultimatum",
+    "description": "AGST ultimatum made by Epidemic sounds",
     "creativeTab": {
       "value": "CUSTOM:Aditionaladditionsmisc"
     },
     "music": {
-      "value": "CUSTOM:scpsltrackbutdiffrent"
+      "value": "CUSTOM:ultimatum"
     },
     "specialInfo": [
-      "not really diffrent from the original but still different"
+      "made by epidemic sounds"
     ],
     "hasGlow": true
   }

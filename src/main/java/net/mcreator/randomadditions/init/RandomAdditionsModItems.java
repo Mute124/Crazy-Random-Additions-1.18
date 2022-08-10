@@ -18,6 +18,7 @@ import net.mcreator.randomadditions.item.WalterwhiteItem;
 import net.mcreator.randomadditions.item.TechnosCrownItem;
 import net.mcreator.randomadditions.item.ShotgunItem;
 import net.mcreator.randomadditions.item.SawItem;
+import net.mcreator.randomadditions.item.SLremixItem;
 import net.mcreator.randomadditions.item.MagmaIngotItem;
 import net.mcreator.randomadditions.item.HeartItem;
 import net.mcreator.randomadditions.item.GunItem;
@@ -107,6 +108,7 @@ public class RandomAdditionsModItems {
 			RandomAdditionsModTabs.TAB_RANDOM_ADDITIONSBLOCKS);
 	public static final RegistryObject<Item> WALTERWHITE = REGISTRY.register("walterwhite", () -> new WalterwhiteItem());
 	public static final RegistryObject<Item> AGST_ULTIMATUM = REGISTRY.register("agst_ultimatum", () -> new AGSTUltimatumItem());
+	public static final RegistryObject<Item> S_LREMIX = REGISTRY.register("s_lremix", () -> new SLremixItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
