@@ -28,5 +28,15 @@
         "stream": true
       }
     ]
+  },
+  "ultimatumremixed": {
+    "category": "music",
+    "subtitle": "subtitles.ultimatumremixed",
+    "sounds": [
+      {
+        "name": "random_additions:ultimatum_remix",
+        "stream": true
+      }
+    ]
   }
 }
