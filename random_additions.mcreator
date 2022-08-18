@@ -1331,6 +1331,33 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "disc"
+    },
+    {
+      "name": "Hotfuckingwater",
+      "type": "fluid",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hotfuckingwater",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "DIYhotwater",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "di_yhotwater"
+    },
+    {
+      "name": "Walterlegitobtain",
+      "type": "villagertrade",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walterlegitobtain"
     }
   ],
   "variable_elements": [
@@ -1466,12 +1493,14 @@
       "item.random_additions.wood_armor_armor_leggings": "Wood Leggings",
       "advancements.explosiveordnance.descr": "Obtain a grenade",
       "item.minecraft.splash_potion.effect.confusion": "Splash Confusion",
+      "item.random_additions.hotfuckingwater_bucket": "Hot water Bucket",
       "advancements.testachievementpleaseignore.descr": "Yes this is a stanley parable refrence",
       "advancements.sawtime.descr": "Make a saw",
       "item.random_additions.drillbit": "Drill bit",
       "advancements.feelingbetter.title": "Feeling better",
       "advancements.thisissaferight.title": "This is safe right?",
       "advancements.why.descr": "You ate a piece of borgium are you happy?",
+      "block.random_additions.hotfuckingwater": "Hot water",
       "effect.poweroftheborgor": "Power of the borgor",
       "item.random_additions.wood_armor_armor_boots": "Wood Boots",
       "item.random_additions.gun": "gun",
@@ -1483,6 +1512,7 @@
       "item.random_additions.bug_drink": "Bug Drink",
       "item.random_additions.walterwhite": "Walter white",
       "advancements.whatdid_itellyou.title": "What did I tell you",
+      "fluid.random_additions.hotfuckingwater": "Hot water",
       "advancements.blockafire.descr": "Craft a Magmanium block",
       "advancements.joingame.descr": "Thank you so much for downloading my mod!",
       "item.random_additions.grenadethrownitem": "Grenadethrownitem",

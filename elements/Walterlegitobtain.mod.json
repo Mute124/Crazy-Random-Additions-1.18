@@ -1,0 +1,33 @@
+{
+  "_fv": 28,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CLERIC"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "CUSTOM:BugDrink"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice2": 32,
+            "offer": {
+              "value": "CUSTOM:Walterwhite"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 1,
+            "xp": 200,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}
