@@ -1,8 +1,12 @@
 package net.mcreator.randomadditions.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
 
-import javax.annotation.Nullable;
+import java.util.Iterator;
 
 public class InfectiousEffectExpiresProcedure {
 	public static void execute(Entity entity) {

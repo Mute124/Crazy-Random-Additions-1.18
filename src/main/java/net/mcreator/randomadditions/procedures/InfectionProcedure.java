@@ -1,8 +1,16 @@
 package net.mcreator.randomadditions.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.util.Mth;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.BlockPos;
 
-import javax.annotation.Nullable;
+import net.mcreator.randomadditions.init.RandomAdditionsModMobEffects;
+
+import java.util.Random;
 
 public class InfectionProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
