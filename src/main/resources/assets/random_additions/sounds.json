@@ -8,5 +8,35 @@
         "stream": true
       }
     ]
+  },
+  "lucidremix": {
+    "category": "music",
+    "subtitle": "subtitles.lucidremix",
+    "sounds": [
+      {
+        "name": "random_additions:es_lucid_remiz",
+        "stream": true
+      }
+    ]
+  },
+  "scpsltrackbutdiffrent": {
+    "category": "record",
+    "subtitle": "subtitles.scpsltrackbutdiffrent",
+    "sounds": [
+      {
+        "name": "random_additions:scp-sl-track-but-mixed-up-by-0.01_",
+        "stream": true
+      }
+    ]
+  },
+  "ultimatumremixed": {
+    "category": "music",
+    "subtitle": "subtitles.ultimatumremixed",
+    "sounds": [
+      {
+        "name": "random_additions:ultimatum_remix",
+        "stream": true
+      }
+    ]
   }
 }

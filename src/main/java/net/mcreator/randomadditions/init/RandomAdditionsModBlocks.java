@@ -19,6 +19,7 @@ import net.mcreator.randomadditions.block.MagmaOreBlock;
 import net.mcreator.randomadditions.block.MagmaBlockBlock;
 import net.mcreator.randomadditions.block.InfectedSoilBlock;
 import net.mcreator.randomadditions.block.InfectedGrassBlock;
+import net.mcreator.randomadditions.block.HotfuckingwaterBlock;
 import net.mcreator.randomadditions.block.CorkBlock;
 import net.mcreator.randomadditions.block.BorgiumOreBlock;
 import net.mcreator.randomadditions.block.BorgiumBlockBlock;
@@ -38,6 +39,7 @@ public class RandomAdditionsModBlocks {
 	public static final RegistryObject<Block> INFECTED_GRASS = REGISTRY.register("infected_grass", () -> new InfectedGrassBlock());
 	public static final RegistryObject<Block> INFECTED_SOIL = REGISTRY.register("infected_soil", () -> new InfectedSoilBlock());
 	public static final RegistryObject<Block> UNOBTANIOUS = REGISTRY.register("unobtanious", () -> new UnobtaniousBlock());
+	public static final RegistryObject<Block> HOTFUCKINGWATER = REGISTRY.register("hotfuckingwater", () -> new HotfuckingwaterBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

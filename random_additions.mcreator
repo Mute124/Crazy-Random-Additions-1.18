@@ -1307,6 +1307,57 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "thethingsthat_they_couldntdo"
+    },
+    {
+      "name": "Walterlegitobtain",
+      "type": "villagertrade",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walterlegitobtain"
+    },
+    {
+      "name": "Lucidremix",
+      "type": "musicdisc",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lucidremix"
+    },
+    {
+      "name": "Disc",
+      "type": "achievement",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disc"
+    },
+    {
+      "name": "DIYhotwater",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "di_yhotwater"
+    },
+    {
+      "name": "SLremix",
+      "type": "musicdisc",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_lremix"
+    },
+    {
+      "name": "Hotfuckingwater",
+      "type": "fluid",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hotfuckingwater",
+      "metadata": {
+        "gb": true
+      }
     }
   ],
   "variable_elements": [
@@ -1331,6 +1382,30 @@
       ],
       "category": "music",
       "subtitle": "..."
+    },
+    {
+      "name": "lucidremix",
+      "files": [
+        "es_lucid_remiz"
+      ],
+      "category": "music",
+      "subtitle": "lucid remix"
+    },
+    {
+      "name": "scpsltrackbutdiffrent",
+      "files": [
+        "scp-sl-track-but-mixed-up-by-0.01_"
+      ],
+      "category": "record",
+      "subtitle": "diffrent"
+    },
+    {
+      "name": "ultimatumremixed",
+      "files": [
+        "ultimatum_remix"
+      ],
+      "category": "music",
+      "subtitle": "remix"
     }
   ],
   "language_map": {

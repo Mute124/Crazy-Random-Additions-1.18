@@ -1,0 +1,19 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "slremix",
+    "name": "SCP Secret Labolatory main theme remix",
+    "description": "SCP SL main theme remix made by hyperexecube",
+    "creativeTab": {
+      "value": "CUSTOM:Aditionaladditionsmisc"
+    },
+    "music": {
+      "value": "CUSTOM:scpsltrackbutdiffrent"
+    },
+    "specialInfo": [
+      "Made by hyperexecube in like 20 minutes"
+    ],
+    "hasGlow": true
+  }
+}

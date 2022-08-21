@@ -3,16 +3,16 @@
   "_type": "musicdisc",
   "definition": {
     "texture": "thedisc",
-    "name": "AGST-Ultimatum",
-    "description": "Now playing AGST-Ultimatum by Epidemic sounds",
+    "name": "AGST Ultimatum remix",
+    "description": "AGST Ultimatum remix made by hyperexecube",
     "creativeTab": {
       "value": "CUSTOM:Aditionaladditionsmisc"
     },
     "music": {
-      "value": "CUSTOM:ultimatum"
+      "value": "CUSTOM:ultimatumremixed"
     },
     "specialInfo": [
-      "Made by Epidemic sounds"
+      "Original made by epidemic sounds"
     ],
     "hasGlow": true
   }
