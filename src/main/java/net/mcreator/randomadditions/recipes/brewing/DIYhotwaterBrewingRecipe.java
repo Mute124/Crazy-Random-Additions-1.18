@@ -7,38 +7,32 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.common.brewing.IBrewingRecipe;
 import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
 
-import net.minecraft.world.item.alchemy.Potions;
-import net.minecraft.world.item.alchemy.PotionUtils;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
 
-import net.mcreator.randomadditions.init.RandomAdditionsModPotions;
-import net.mcreator.randomadditions.init.RandomAdditionsModBlocks;
+import net.mcreator.randomadditions.init.RandomAdditionsModItems;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class InfectiouspotionrecipeBrewingRecipe implements IBrewingRecipe {
+public class DIYhotwaterBrewingRecipe implements IBrewingRecipe {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
-		event.enqueueWork(() -> BrewingRecipeRegistry.addRecipe(new InfectiouspotionrecipeBrewingRecipe()));
+		event.enqueueWork(() -> BrewingRecipeRegistry.addRecipe(new DIYhotwaterBrewingRecipe()));
 	}
 
 	@Override
 	public boolean isInput(ItemStack input) {
-		Item inputItem = input.getItem();
-		return (inputItem == Items.POTION || inputItem == Items.SPLASH_POTION || inputItem == Items.LINGERING_POTION)
-				&& PotionUtils.getPotion(input) == Potions.AWKWARD;
+		return input.getItem() == Items.BUCKET;
 	}
 
 	@Override
 	public boolean isIngredient(ItemStack ingredient) {
-		return ingredient.getItem() == RandomAdditionsModBlocks.INFECTED_SOIL.get().asItem();
+		return ingredient.getItem() == Items.WATER_BUCKET;
 	}
 
 	@Override
 	public ItemStack getOutput(ItemStack input, ItemStack ingredient) {
 		if (isInput(input) && isIngredient(ingredient)) {
-			return PotionUtils.setPotion(new ItemStack(input.getItem()), RandomAdditionsModPotions.INFECTIOUSPOTION.get());
+			return new ItemStack(RandomAdditionsModItems.HOTFUCKINGWATER_BUCKET.get());
 		}
 		return ItemStack.EMPTY;
 	}
