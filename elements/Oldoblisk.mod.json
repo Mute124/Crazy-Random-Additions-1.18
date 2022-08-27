@@ -16,7 +16,11 @@
       "Surface"
     ],
     "restrictionBlocks": [],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Theinfection"
+      }
+    ],
     "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

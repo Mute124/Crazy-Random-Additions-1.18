@@ -1,16 +1,8 @@
 
 package net.mcreator.randomadditions.enchantment;
 
-import net.minecraft.world.item.enchantment.Enchantments;
-import net.minecraft.world.item.enchantment.EnchantmentCategory;
-import net.minecraft.world.item.enchantment.Enchantment;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.EquipmentSlot;
-
-import net.mcreator.randomadditions.init.RandomAdditionsModItems;
-
 public class Test03Enchantment extends Enchantment {
+
 	public Test03Enchantment(EquipmentSlot... slots) {
 		super(Enchantment.Rarity.VERY_RARE, EnchantmentCategory.WEAPON, slots);
 	}
@@ -78,4 +70,5 @@ public class Test03Enchantment extends Enchantment {
 	public boolean isTreasureOnly() {
 		return true;
 	}
+
 }

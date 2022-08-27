@@ -1,23 +1,8 @@
 
 package net.mcreator.randomadditions.fluid;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fluids.ForgeFlowingFluid;
-import net.minecraftforge.fluids.FluidAttributes;
-
-import net.minecraft.world.level.material.FluidState;
-import net.minecraft.world.level.material.Fluid;
-import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.core.particles.ParticleOptions;
-
-import net.mcreator.randomadditions.init.RandomAdditionsModItems;
-import net.mcreator.randomadditions.init.RandomAdditionsModFluids;
-import net.mcreator.randomadditions.init.RandomAdditionsModBlocks;
-
 public abstract class HotfuckingwaterFluid extends ForgeFlowingFluid {
+
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(RandomAdditionsModFluids.HOTFUCKINGWATER,
 			RandomAdditionsModFluids.FLOWING_HOTFUCKINGWATER,
 			FluidAttributes
@@ -74,4 +59,5 @@ public abstract class HotfuckingwaterFluid extends ForgeFlowingFluid {
 			return false;
 		}
 	}
+
 }

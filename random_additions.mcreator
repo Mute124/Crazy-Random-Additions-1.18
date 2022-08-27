@@ -1309,12 +1309,12 @@
       "registry_name": "thethingsthat_they_couldntdo"
     },
     {
-      "name": "SLremix",
-      "type": "musicdisc",
-      "sortid": 136,
+      "name": "Walterlegitobtain",
+      "type": "villagertrade",
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "s_lremix"
+      "registry_name": "walterlegitobtain"
     },
     {
       "name": "Lucidremix",
@@ -1333,6 +1333,22 @@
       "registry_name": "disc"
     },
     {
+      "name": "DIYhotwater",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "di_yhotwater"
+    },
+    {
+      "name": "SLremix",
+      "type": "musicdisc",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_lremix"
+    },
+    {
       "name": "Hotfuckingwater",
       "type": "fluid",
       "sortid": 139,
@@ -1342,22 +1358,6 @@
       "metadata": {
         "gb": true
       }
-    },
-    {
-      "name": "DIYhotwater",
-      "type": "recipe",
-      "sortid": 140,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "di_yhotwater"
-    },
-    {
-      "name": "Walterlegitobtain",
-      "type": "villagertrade",
-      "sortid": 141,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "walterlegitobtain"
     }
   ],
   "variable_elements": [
@@ -1384,20 +1384,20 @@
       "subtitle": "..."
     },
     {
-      "name": "scpsltrackbutdiffrent",
-      "files": [
-        "scp-sl-track-but-mixed-up-by-0.01_"
-      ],
-      "category": "record",
-      "subtitle": "diffrent"
-    },
-    {
       "name": "lucidremix",
       "files": [
         "es_lucid_remiz"
       ],
       "category": "music",
       "subtitle": "lucid remix"
+    },
+    {
+      "name": "scpsltrackbutdiffrent",
+      "files": [
+        "scp-sl-track-but-mixed-up-by-0.01_"
+      ],
+      "category": "record",
+      "subtitle": "diffrent"
     },
     {
       "name": "ultimatumremixed",
@@ -1422,7 +1422,6 @@
       "item.random_additions.bismuth": "Bismuth",
       "item.minecraft.tipped_arrow.effect.confusion": "Arrow of Confusion",
       "itemGroup.tabrandomadditions_items": "Random additions Items",
-      "item.random_additions.lucidremix": "AGST-Lucid remix",
       "block.random_additions.bismuth_ore": "Bismuth Ore",
       "advancements.again.title": "Do you like my sword sword sword my borgium sword!!!",
       "advancements.foodbut_not.descr": "Get borgium",
@@ -1430,27 +1429,22 @@
       "advancements.oooshiny.title": "Ooo shiny",
       "item.random_additions.bismuth_tools_hoe": "Bismuth Hoe",
       "biome.random_additions.theinfection": "The infection",
-      "item.random_additions.lucidremix.desc": "AGST-Lucid remix by Hyperexecube",
-      "item.random_additions.agst_ultimatum.desc": "AGST Ultimatum remix made by hyperexecube",
+      "item.random_additions.agst_ultimatum.desc": "Now playing AGST-Ultimatum by Epidemic sounds",
       "item.random_additions.heart": "Heart",
       "item.random_additions.chainsaw": "Chainsaw",
       "item.random_additions.enchantedborgor": "Enchantedborgor",
-      "advancements.disc.title": "Music to my ears",
       "item.random_additions.magma_ingot": "Magmanium ingot",
       "advancements.thethingsthat_they_couldntdo.descr": "Defeat the destroyer of civilizations or also called the wither and make the Infection Spread again",
-      "subtitles.scpsltrackbutdiffrent": "diffrent",
       "block.random_additions.unobtanious": "Unobtanious",
       "advancements.ilovehoes.descr": "What are you doing with your life",
-      "item.random_additions.s_lremix.desc": "SCP SL main theme remix made by hyperexecube",
       "advancements.blockafire.title": "Set my block a fire",
       "advancements.why.title": "Why would you do that?",
       "item.random_additions.borgium_armor_boots": "Borgium Boots",
       "advancements.testachievementpleaseignore.title": "TEST ACHIEVEMENT PLEASE IGNORE",
       "advancements.ilovehoes.title": "I \u003c3 hoes",
       "item.random_additions.borgium_dust": "Borgium",
-      "effect.random_additions.confusion": "Confusion",
       "subtitles.ultimatum": "...",
-      "item.random_additions.s_lremix": "SCP Secret Labolatory main theme remix",
+      "effect.random_additions.confusion": "Confusion",
       "item.random_additions.bark": "Bark",
       "advancements.explosiveordnance.title": "Explosive ordnance",
       "item.minecraft.potion.effect.confusion": "Confusion",
@@ -1467,10 +1461,9 @@
       "advancements.suspiciouslookingborgor.descr": "I would not eat that if i were you",
       "item.minecraft.lingering_potion.effect.infectiouspotion": "Lingering Potion of Infectiousness",
       "block.random_additions.magma_ore": "Magmanium Ore",
-      "item.random_additions.agst_ultimatum": "AGST Ultimatum remix",
+      "item.random_additions.agst_ultimatum": "AGST-Ultimatum",
       "item.random_additions.borgium_armor_leggings": "Borgium Leggings",
       "advancements.thethingsthat_they_couldntdo.title": "The things that They Couldn\u0027t do",
-      "advancements.disc.descr": "Pick up a specific disc",
       "block.random_additions.magma_block": "Block of Magmanium",
       "item.minecraft.potion.effect.poweroftheborgor": "Poweroftheborgor",
       "itemGroup.tabrandomadditionsarmor": "Random additions armor",
@@ -1482,7 +1475,6 @@
       "item.random_additions.technos_crown": "Technos Crown",
       "advancements.again.descr": "Obtain a borgium sword and don\u0027t eat it",
       "item.random_additions.shotgun": "Shotgun",
-      "subtitles.ultimatumremixed": "remix",
       "item.random_additions.borgium_hoe": "Borgium Hoe",
       "item.minecraft.tipped_arrow.effect.poweroftheborgor": "Arrow of Poweroftheborgor",
       "advancements.mr_walter.title": "Walter Walter the great Walter",
@@ -1493,14 +1485,12 @@
       "item.random_additions.wood_armor_armor_leggings": "Wood Leggings",
       "advancements.explosiveordnance.descr": "Obtain a grenade",
       "item.minecraft.splash_potion.effect.confusion": "Splash Confusion",
-      "item.random_additions.hotfuckingwater_bucket": "Hot water Bucket",
       "advancements.testachievementpleaseignore.descr": "Yes this is a stanley parable refrence",
       "advancements.sawtime.descr": "Make a saw",
       "item.random_additions.drillbit": "Drill bit",
       "advancements.feelingbetter.title": "Feeling better",
       "advancements.thisissaferight.title": "This is safe right?",
       "advancements.why.descr": "You ate a piece of borgium are you happy?",
-      "block.random_additions.hotfuckingwater": "Hot water",
       "effect.poweroftheborgor": "Power of the borgor",
       "item.random_additions.wood_armor_armor_boots": "Wood Boots",
       "item.random_additions.gun": "gun",
@@ -1512,7 +1502,6 @@
       "item.random_additions.bug_drink": "Bug Drink",
       "item.random_additions.walterwhite": "Walter white",
       "advancements.whatdid_itellyou.title": "What did I tell you",
-      "fluid.random_additions.hotfuckingwater": "Hot water",
       "advancements.blockafire.descr": "Craft a Magmanium block",
       "advancements.joingame.descr": "Thank you so much for downloading my mod!",
       "item.random_additions.grenadethrownitem": "Grenadethrownitem",
@@ -1526,7 +1515,6 @@
       "item.random_additions.bismuth_tools_sword": "Bismuth Sword",
       "item.random_additions.borgium_armor_helmet": "Borgium Helmet",
       "item.random_additions.bismuth_tools_shovel": "Bismuth Shovel",
-      "subtitles.lucidremix": "lucid remix",
       "itemGroup.tabaditionaladditionsmisc": "random additions misc",
       "item.random_additions.bullets": "Bullets",
       "itemGroup.tabrandom_additionsblocks": "Random Additions blocks",
