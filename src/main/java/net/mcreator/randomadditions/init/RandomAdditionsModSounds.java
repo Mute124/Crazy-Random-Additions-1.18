@@ -19,9 +19,9 @@ public class RandomAdditionsModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
 		REGISTRY.put(new ResourceLocation("random_additions", "ultimatum"), new SoundEvent(new ResourceLocation("random_additions", "ultimatum")));
+		REGISTRY.put(new ResourceLocation("random_additions", "lucidremix"), new SoundEvent(new ResourceLocation("random_additions", "lucidremix")));
 		REGISTRY.put(new ResourceLocation("random_additions", "scpsltrackbutdiffrent"),
 				new SoundEvent(new ResourceLocation("random_additions", "scpsltrackbutdiffrent")));
-		REGISTRY.put(new ResourceLocation("random_additions", "lucidremix"), new SoundEvent(new ResourceLocation("random_additions", "lucidremix")));
 		REGISTRY.put(new ResourceLocation("random_additions", "ultimatumremixed"),
 				new SoundEvent(new ResourceLocation("random_additions", "ultimatumremixed")));
 	}
