@@ -1,8 +1,8 @@
 package net.mcreator.randomadditions.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.TextComponent;
 
 public class WalterwhiteLivingEntityIsHitWithItemProcedure {
 	public static void execute(Entity entity) {

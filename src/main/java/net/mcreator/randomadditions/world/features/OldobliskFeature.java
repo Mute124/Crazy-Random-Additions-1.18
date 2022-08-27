@@ -40,7 +40,7 @@ public class OldobliskFeature extends Feature<NoneFeatureConfiguration> {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("random_additions:theinfection"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 	private StructureTemplate template = null;
 

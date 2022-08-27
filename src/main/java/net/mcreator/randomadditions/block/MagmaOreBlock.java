@@ -1,16 +1,30 @@
 
 package net.mcreator.randomadditions.block;
 
+import org.checkerframework.checker.units.qual.s;
+
+import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.randomadditions.init.RandomAdditionsModItems;
+
+import java.util.List;
+import java.util.Collections;
 
 public class MagmaOreBlock extends Block {
-
 	public MagmaOreBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(6f, 8.705505632961241f).lightLevel(s -> 2)
 				.requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
-
 	}
 
 	@Override
@@ -32,11 +46,9 @@ public class MagmaOreBlock extends Block {
 
 	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(RandomAdditionsModItems.MAGMA_INGOT.get()));
 	}
-
 }

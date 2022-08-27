@@ -20,6 +20,7 @@ import net.minecraft.core.Holder;
 import net.mcreator.randomadditions.world.features.ores.MagmaOreFeature;
 import net.mcreator.randomadditions.world.features.ores.BorgiumOreFeature;
 import net.mcreator.randomadditions.world.features.ores.BismuthOreFeature;
+import net.mcreator.randomadditions.world.features.lakes.HotfuckingwaterFeature;
 import net.mcreator.randomadditions.world.features.WellFeature;
 import net.mcreator.randomadditions.world.features.WarehouseFeature;
 import net.mcreator.randomadditions.world.features.StatueFeature;
@@ -62,6 +63,8 @@ public class RandomAdditionsModFeatures {
 					DripstonepillarFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> CORIDOR = register("coridor", CoridorFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_STRUCTURES, CoridorFeature.GENERATE_BIOMES, CoridorFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> HOTFUCKINGWATER = register("hotfuckingwater", HotfuckingwaterFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.LAKES, HotfuckingwaterFeature.GENERATE_BIOMES, HotfuckingwaterFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

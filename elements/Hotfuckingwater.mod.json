@@ -6,19 +6,19 @@
     "bucketName": "Hot water Bucket",
     "textureStill": "water_still",
     "textureFlowing": "water_flow",
-    "tintType": "No tint",
+    "tintType": "Water",
     "canMultiply": true,
-    "flowRate": 1,
-    "levelDecrease": 1,
-    "slopeFindDistance": 10,
+    "flowRate": 2,
+    "levelDecrease": 2,
+    "slopeFindDistance": 2,
     "spawnParticles": true,
     "dripParticle": {
       "value": "WATER_DROP"
     },
-    "flowStrength": 1.0,
+    "flowStrength": 3.0,
     "luminosity": 0,
-    "density": 1001,
-    "viscosity": 1000,
+    "density": -1001,
+    "viscosity": 10000,
     "isGas": true,
     "temperature": 300,
     "type": "WATER",
@@ -30,7 +30,7 @@
     "emptySound": {
       "value": "item.bucket.empty_lava"
     },
-    "rarity": "COMMON",
+    "rarity": "RARE",
     "specialInfo": [],
     "resistance": 100.0,
     "luminance": 0,
@@ -40,8 +40,10 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "colorOnMap": "DEFAULT",
-    "frequencyOnChunks": 5,
-    "spawnWorldTypes": [],
+    "frequencyOnChunks": 90,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": []
   }
 }
