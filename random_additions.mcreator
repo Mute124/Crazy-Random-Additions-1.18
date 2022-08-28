@@ -1129,14 +1129,6 @@
       "registry_name": "netheritetomagma"
     },
     {
-      "name": "Magmaingotuse",
-      "type": "fuel",
-      "sortid": 108,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magmaingotuse"
-    },
-    {
       "name": "Test03",
       "type": "enchantment",
       "sortid": 110,
@@ -1203,14 +1195,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mmm_tasty"
-    },
-    {
-      "name": "Magmablockuse",
-      "type": "fuel",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magmablockuse"
     },
     {
       "name": "InfectiousEffectExpires",
@@ -1358,6 +1342,22 @@
       "metadata": {
         "gb": true
       }
+    },
+    {
+      "name": "Magmaingotuse",
+      "type": "itemextension",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmaingotuse"
+    },
+    {
+      "name": "Magmablockuse",
+      "type": "itemextension",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magmablockuse"
     }
   ],
   "variable_elements": [
@@ -1566,5 +1566,5 @@
     "modElementsPackage": "net.mcreator.randomadditions",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200120510
+  "mcreatorVersion": 202200234517
 }

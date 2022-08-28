@@ -21,11 +21,6 @@ public class BorgiumDustItem extends Item {
 	}
 
 	@Override
-	public int getUseDuration(ItemStack itemstack) {
-		return 32;
-	}
-
-	@Override
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
 		ItemStack retval = new ItemStack(RandomAdditionsModItems.BORGIUM_DUST.get());
 		super.finishUsingItem(itemstack, world, entity);

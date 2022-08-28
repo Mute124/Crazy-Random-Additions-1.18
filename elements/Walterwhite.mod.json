@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -34,7 +34,6 @@
     "onEntityHitWith": {
       "name": "WalterwhiteLivingEntityIsHitWithItem"
     },
-    "hasDispenseBehavior": false,
     "isFood": true,
     "nutritionalValue": -100,
     "saturation": -100.0,

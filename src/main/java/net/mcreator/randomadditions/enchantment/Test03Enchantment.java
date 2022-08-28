@@ -6,6 +6,7 @@ import net.minecraft.world.item.enchantment.EnchantmentCategory;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.EquipmentSlot;
 
 import net.mcreator.randomadditions.init.RandomAdditionsModItems;
@@ -22,56 +23,19 @@ public class Test03Enchantment extends Enchantment {
 
 	@Override
 	protected boolean checkCompatibility(Enchantment ench) {
-		if (ench == Enchantments.SHARPNESS)
-			return true;
-		if (ench == Enchantments.SMITE)
-			return true;
-		if (ench == Enchantments.BANE_OF_ARTHROPODS)
-			return true;
-		if (ench == Enchantments.KNOCKBACK)
-			return true;
-		if (ench == Enchantments.MOB_LOOTING)
-			return true;
-		if (ench == Enchantments.SWEEPING_EDGE)
-			return true;
-		if (ench == Enchantments.BLOCK_EFFICIENCY)
-			return true;
-		if (ench == Enchantments.FIRE_ASPECT)
-			return true;
-		if (ench == Enchantments.UNBREAKING)
-			return true;
-		if (ench == Enchantments.BLOCK_FORTUNE)
-			return true;
-		return false;
+		return ench == Enchantments.SHARPNESS || ench == Enchantments.SMITE || ench == Enchantments.BANE_OF_ARTHROPODS
+				|| ench == Enchantments.KNOCKBACK || ench == Enchantments.MOB_LOOTING || ench == Enchantments.SWEEPING_EDGE
+				|| ench == Enchantments.BLOCK_EFFICIENCY || ench == Enchantments.FIRE_ASPECT || ench == Enchantments.UNBREAKING
+				|| ench == Enchantments.BLOCK_FORTUNE;
 	}
 
 	@Override
 	public boolean canApplyAtEnchantingTable(ItemStack stack) {
-		if (stack.getItem() == RandomAdditionsModItems.BORGIUM_SWORD.get())
-			return true;
-		if (stack.getItem() == RandomAdditionsModItems.BORGIUM_AXE.get())
-			return true;
-		if (stack.getItem() == RandomAdditionsModItems.BISMUTH_TOOLS_SWORD.get())
-			return true;
-		if (stack.getItem() == RandomAdditionsModItems.BISMUTH_TOOLS_AXE.get())
-			return true;
-		if (stack.getItem() == Items.DIAMOND_SWORD)
-			return true;
-		if (stack.getItem() == Items.DIAMOND_AXE)
-			return true;
-		if (stack.getItem() == Items.NETHERITE_SWORD)
-			return true;
-		if (stack.getItem() == Items.NETHERITE_AXE)
-			return true;
-		if (stack.getItem() == Items.GOLDEN_SWORD)
-			return true;
-		if (stack.getItem() == Items.GOLDEN_AXE)
-			return true;
-		if (stack.getItem() == Items.IRON_SWORD)
-			return true;
-		if (stack.getItem() == Items.IRON_AXE)
-			return true;
-		return false;
+		Item item = stack.getItem();
+		return item == RandomAdditionsModItems.BORGIUM_SWORD.get() || item == RandomAdditionsModItems.BORGIUM_AXE.get()
+				|| item == RandomAdditionsModItems.BISMUTH_TOOLS_SWORD.get() || item == RandomAdditionsModItems.BISMUTH_TOOLS_AXE.get()
+				|| item == Items.DIAMOND_SWORD || item == Items.DIAMOND_AXE || item == Items.NETHERITE_SWORD || item == Items.NETHERITE_AXE
+				|| item == Items.GOLDEN_SWORD || item == Items.GOLDEN_AXE || item == Items.IRON_SWORD || item == Items.IRON_AXE;
 	}
 
 	@Override

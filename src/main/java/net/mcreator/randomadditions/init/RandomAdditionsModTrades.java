@@ -11,21 +11,15 @@ import net.minecraftforge.common.BasicItemListing;
 
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.entity.npc.VillagerProfession;
-
-import java.util.List;
-
-import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class RandomAdditionsModTrades {
 	@SubscribeEvent
 	public static void registerTrades(VillagerTradesEvent event) {
-		Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
 		if (event.getType() == VillagerProfession.CLERIC) {
-			trades.get(5).add(new BasicItemListing(new ItemStack(RandomAdditionsModItems.BUG_DRINK.get(), 5), new ItemStack(Items.EMERALD, 32),
-					new ItemStack(RandomAdditionsModItems.WALTERWHITE.get()), 1, 200, 0.05f));
+			event.getTrades().get(5).add(new BasicItemListing(new ItemStack(RandomAdditionsModItems.BUG_DRINK.get(), 5),
+					new ItemStack(Items.EMERALD, 32), new ItemStack(RandomAdditionsModItems.WALTERWHITE.get()), 1, 200, 0.05f));
 		}
 	}
 }
