@@ -34,6 +34,6 @@ public class AGSTUltimatumItem extends RecordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Original made by epidemic sounds"));
+		list.add(new TextComponent("Original made by epidemic sounds (support them!)"));
 	}
 }
