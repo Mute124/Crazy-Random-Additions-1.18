@@ -21,6 +21,7 @@ import net.minecraft.world.level.dimension.LevelStem;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.chunk.ChunkGenerator;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.biome.MultiNoiseBiomeSource;
 import net.minecraft.world.level.biome.Climate;
 import net.minecraft.world.level.biome.Biome;
@@ -30,6 +31,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
 import net.mcreator.randomadditions.world.biome.TheinfectionBiome;
+import net.mcreator.randomadditions.world.biome.GlassdesertBiome;
 import net.mcreator.randomadditions.RandomAdditionsMod;
 
 import java.util.Map;
@@ -42,11 +44,13 @@ import com.mojang.datafixers.util.Pair;
 public class RandomAdditionsModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, RandomAdditionsMod.MODID);
 	public static final RegistryObject<Biome> THEINFECTION = REGISTRY.register("theinfection", () -> TheinfectionBiome.createBiome());
+	public static final RegistryObject<Biome> GLASSDESERT = REGISTRY.register("glassdesert", () -> GlassdesertBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			TheinfectionBiome.init();
+			GlassdesertBiome.init();
 		});
 	}
 
@@ -67,6 +71,10 @@ public class RandomAdditionsModBiomes {
 						List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters.values());
 						parameters.add(new Pair<>(TheinfectionBiome.PARAMETER_POINT,
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, THEINFECTION.getId()))));
+						parameters.add(new Pair<>(GlassdesertBiome.PARAMETER_POINT,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, GLASSDESERT.getId()))));
+						parameters.add(new Pair<>(GlassdesertBiome.PARAMETER_POINT_UNDERGROUND,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, GLASSDESERT.getId()))));
 
 						MultiNoiseBiomeSource moddedNoiseSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters),
 								noiseSource.preset);
@@ -79,11 +87,15 @@ public class RandomAdditionsModBiomes {
 						SurfaceRules.RuleSource currentRuleSource = noiseGeneratorSettings.surfaceRule();
 						if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 							List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
+							surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, GLASSDESERT.getId()),
+									Blocks.GLASS.defaultBlockState(), Blocks.GLASS.defaultBlockState(), Blocks.GLASS.defaultBlockState()));
 							surfaceRules.add(1,
 									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, THEINFECTION.getId()),
 											RandomAdditionsModBlocks.INFECTED_GRASS.get().defaultBlockState(),
 											RandomAdditionsModBlocks.INFECTED_SOIL.get().defaultBlockState(),
 											RandomAdditionsModBlocks.INFECTED_SOIL.get().defaultBlockState()));
+							surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, GLASSDESERT.getId()),
+									Blocks.GLASS.defaultBlockState(), Blocks.GLASS.defaultBlockState(), Blocks.GLASS.defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),
@@ -111,6 +123,16 @@ public class RandomAdditionsModBiomes {
 																	SurfaceRules.state(groundBlock)), SurfaceRules.state(underwaterBlock))),
 													SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR),
 															SurfaceRules.state(undergroundBlock)))));
+		}
+
+		private static SurfaceRules.RuleSource anySurfaceRule(ResourceKey<Biome> biomeKey, BlockState groundBlock, BlockState undergroundBlock,
+				BlockState underwaterBlock) {
+			return SurfaceRules.ifTrue(SurfaceRules.isBiome(biomeKey),
+					SurfaceRules.sequence(
+							SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, false, 0, CaveSurface.FLOOR),
+									SurfaceRules.sequence(SurfaceRules.ifTrue(SurfaceRules.waterBlockCheck(-1, 0), SurfaceRules.state(groundBlock)),
+											SurfaceRules.state(underwaterBlock))),
+							SurfaceRules.ifTrue(SurfaceRules.stoneDepthCheck(0, true, 0, CaveSurface.FLOOR), SurfaceRules.state(undergroundBlock))));
 		}
 	}
 }
