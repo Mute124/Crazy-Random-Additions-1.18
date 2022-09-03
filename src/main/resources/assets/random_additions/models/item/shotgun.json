@@ -9,6 +9,6 @@
     "6": "random_additions:blocks/texture6",
     "7": "random_additions:blocks/texture2",
     "missing": "random_additions:blocks/",
-    "particle": "random_additions:items/broken_excalibur"
+    "particle": "random_additions:items/shootgun"
   }
 }

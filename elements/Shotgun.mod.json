@@ -3,7 +3,7 @@
   "_type": "rangeditem",
   "definition": {
     "renderType": 1,
-    "texture": "broken_excalibur",
+    "texture": "shootgun",
     "customModelName": "shotty:default",
     "name": "Shotgun",
     "specialInfo": [],

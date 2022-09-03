@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "random_additions:borgor"
+      "item": "random_additions:deleted_mod_element"
     },
     "title": {
       "translate": "advancements.whatdid_itellyou.title"
@@ -20,7 +20,7 @@
       "conditions": {
         "item": {
           "items": [
-            "random_additions:borgor"
+            "random_additions:deleted_mod_element"
           ]
         }
       }

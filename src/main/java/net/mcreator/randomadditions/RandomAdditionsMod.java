@@ -30,7 +30,6 @@ import net.mcreator.randomadditions.init.RandomAdditionsModTabs;
 import net.mcreator.randomadditions.init.RandomAdditionsModPotions;
 import net.mcreator.randomadditions.init.RandomAdditionsModMobEffects;
 import net.mcreator.randomadditions.init.RandomAdditionsModItems;
-import net.mcreator.randomadditions.init.RandomAdditionsModFluids;
 import net.mcreator.randomadditions.init.RandomAdditionsModFeatures;
 import net.mcreator.randomadditions.init.RandomAdditionsModEntities;
 import net.mcreator.randomadditions.init.RandomAdditionsModEnchantments;
@@ -58,7 +57,7 @@ public class RandomAdditionsMod {
 		RandomAdditionsModEntities.REGISTRY.register(bus);
 
 		RandomAdditionsModFeatures.REGISTRY.register(bus);
-		RandomAdditionsModFluids.REGISTRY.register(bus);
+
 		RandomAdditionsModEnchantments.REGISTRY.register(bus);
 		RandomAdditionsModMobEffects.REGISTRY.register(bus);
 		RandomAdditionsModPotions.REGISTRY.register(bus);

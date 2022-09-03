@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "random_additions:borgor"
+      "item": "random_additions:enchantedborgor"
     },
     "title": {
       "translate": "advancements.suspiciouslookingborgor.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "random_additions:borgor"
+              "minecraft:piglin_brute_spawn_egg"
             ],
             "count": {
               "min": 1,

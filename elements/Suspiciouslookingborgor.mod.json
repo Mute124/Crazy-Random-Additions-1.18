@@ -5,7 +5,7 @@
     "achievementName": "Suspicious looking borgor",
     "achievementDescription": "I would not eat that if i were you",
     "achievementIcon": {
-      "value": "CUSTOM:Borgor"
+      "value": "CUSTOM:Enchantedborgor"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:MmmTasty"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"49\" y=\"9\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Borgor</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"49\" y=\"9\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.PIGLIN_BRUTE_SPAWN_EGG</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

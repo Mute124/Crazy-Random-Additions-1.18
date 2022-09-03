@@ -9,6 +9,9 @@ displayName="Random Additions"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="Mute"
+description='''
+Made by mute & his friends as a side project!
+'''
 
 [[dependencies.random_additions]]
     modId="minecraft"
