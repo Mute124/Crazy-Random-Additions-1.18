@@ -30,6 +30,7 @@ import net.mcreator.randomadditions.item.DrillbitItem;
 import net.mcreator.randomadditions.item.ChainsawItem;
 import net.mcreator.randomadditions.item.BulletsItem;
 import net.mcreator.randomadditions.item.BugDrinkItem;
+import net.mcreator.randomadditions.item.BorgiumupgradeItem;
 import net.mcreator.randomadditions.item.BorgiumSwordItem;
 import net.mcreator.randomadditions.item.BorgiumShovelItem;
 import net.mcreator.randomadditions.item.BorgiumPickaxeItem;
@@ -111,6 +112,13 @@ public class RandomAdditionsModItems {
 	public static final RegistryObject<Item> AGST_ULTIMATUM = REGISTRY.register("agst_ultimatum", () -> new AGSTUltimatumItem());
 	public static final RegistryObject<Item> S_LREMIX = REGISTRY.register("s_lremix", () -> new SLremixItem());
 	public static final RegistryObject<Item> LUCIDREMIX = REGISTRY.register("lucidremix", () -> new LucidremixItem());
+	public static final RegistryObject<Item> BORGIUMUPGRADE_HELMET = REGISTRY.register("borgiumupgrade_helmet",
+			() -> new BorgiumupgradeItem.Helmet());
+	public static final RegistryObject<Item> BORGIUMUPGRADE_CHESTPLATE = REGISTRY.register("borgiumupgrade_chestplate",
+			() -> new BorgiumupgradeItem.Chestplate());
+	public static final RegistryObject<Item> BORGIUMUPGRADE_LEGGINGS = REGISTRY.register("borgiumupgrade_leggings",
+			() -> new BorgiumupgradeItem.Leggings());
+	public static final RegistryObject<Item> BORGIUMUPGRADE_BOOTS = REGISTRY.register("borgiumupgrade_boots", () -> new BorgiumupgradeItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
