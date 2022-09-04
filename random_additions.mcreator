@@ -1369,6 +1369,17 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "makeupgrade_4"
+    },
+    {
+      "name": "Hotfuckingwater",
+      "type": "fluid",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hotfuckingwater",
+      "metadata": {
+        "gb": true
+      }
     }
   ],
   "variable_elements": [
@@ -1502,12 +1513,14 @@
       "item.random_additions.wood_armor_armor_leggings": "Wood Leggings",
       "advancements.explosiveordnance.descr": "Obtain a grenade",
       "item.minecraft.splash_potion.effect.confusion": "Splash Confusion",
+      "item.random_additions.hotfuckingwater_bucket": "Hot fucking water Bucket",
       "advancements.testachievementpleaseignore.descr": "Yes this is a stanley parable refrence",
       "advancements.sawtime.descr": "Make a saw",
       "item.random_additions.drillbit": "Drill bit",
       "advancements.feelingbetter.title": "Feeling better",
       "advancements.thisissaferight.title": "This is safe right?",
       "advancements.why.descr": "You ate a piece of borgium are you happy?",
+      "block.random_additions.hotfuckingwater": "Hot fucking water",
       "effect.poweroftheborgor": "Power of the borgor",
       "item.random_additions.wood_armor_armor_boots": "Wood Boots",
       "item.random_additions.gun": "gun",
@@ -1519,6 +1532,7 @@
       "item.random_additions.bug_drink": "Bug Drink",
       "item.random_additions.walterwhite": "Walter white",
       "advancements.whatdid_itellyou.title": "What did I tell you",
+      "fluid.random_additions.hotfuckingwater": "Hot fucking water",
       "advancements.joingame.descr": "Thank you so much for downloading my mod!",
       "item.random_additions.grenadethrownitem": "Grenadethrownitem",
       "advancements.feelingbetter.descr": "Get infected and survive to tell the tale",
@@ -1561,7 +1575,7 @@
     "modid": "random_additions",
     "modName": "Random Additions",
     "version": "1.2.1-1.18.2",
-    "description": "Made by mute \u0026 his friends as a side project!",
+    "description": "Made by mute \u0026 his friends as a side project! Don\u0027t steal this shit! ",
     "author": "Mute",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
